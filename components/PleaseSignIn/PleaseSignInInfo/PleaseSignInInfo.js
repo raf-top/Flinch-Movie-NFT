@@ -87,7 +87,7 @@ const Wrapper = styled.div`
     font-style: normal;
     font-size: 1.2rem;
     color: #fff;
-
+    margin-bottom: 20px;
     text-align: center;
   }
 

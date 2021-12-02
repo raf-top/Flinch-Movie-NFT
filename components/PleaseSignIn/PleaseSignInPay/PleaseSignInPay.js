@@ -107,11 +107,11 @@ const Wrapper = styled.div`
     }
 
     .button {
-      border: 2px solid #eaa721;
+      border: 2px solid #5ec2a3;
       width: 200px;
       color: #eaa721;
       font-size: 1.25rem;
-      border-radius: 0px;
+      border-radius: 35px;
       text-transform: uppercase;
 
       &:hover {
