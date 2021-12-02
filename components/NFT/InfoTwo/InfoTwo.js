@@ -19,15 +19,15 @@ const InfoTwo = () => {
         <div className="content">
           <div className="sub-wrap">
             <p className="intro">
-              All Flinch NFT holders have access to members only areas, virtual
-              premieres, collaborations with the filmmakers, revenue from the cinema
-              and airdrops. Fanvestors will also get a &quot;kit&quot; complete with
-              social ready assets to spread the word.
+              All Flinch NFT holders have access to members only areas, virtual premieres, <br/>
+              with the filmmakers, value from the cinema and airdrops. Fanvestors will<br/>
+              also get a &quot;kit&quot; complete with social ready assets to spread the word.<br/>
+              
             </p>
 
             <p className="info">
-              There are 2 types of Flinch collectibles, each with fair launch and
-              distribution, some rarer than others. They are:
+              There are 2 types of Flinch collectibles, each with fair launch and distribution,<br/>
+              some rarer than others.
             </p>
           
       
@@ -138,7 +138,7 @@ const Wrapper = styled.div`
     .info {
       color: #fff;
       font-size: 1.2rem;
-
+      text-align: center;
       line-height: 31px;
       font-family: acumin-pro-wide, sans-serif;
     }
