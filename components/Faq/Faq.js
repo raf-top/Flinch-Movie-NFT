@@ -37,12 +37,12 @@ const data = {
       {
           title: "Howdo I purchase a Flinch NFT?",
           content: `- You may mint a Flinch NFT on our NFT page. We have two mints, one for Poster, one for Characters. There are 3 poster skews with 3333 of eac and 5,000 characters.
-          All NFTs reward holders via the CatchingPokemonSharp. Poster NFT holders have first access to mint a CharacterData. Characther holders have governance over the franchise, access to in  person movie premieres, premiere parties and freee merch.
+          All NFTs reward holders via the CatchingPokemonSharp. Poster NFT holders have first access to mint a CharacterData. Characther holders have governance over the franchise, access to in  person movie premieres, premiere parties and freee merch.<br>
           - As subsequent films in the franchise release, new poster NFTs will airdrop to holders.`,
       },
       {
           title: "How are Flinch NFTs distributed?",
-          content: `Fair distribution. There are no bonding curves here. Buying a poster will cost .04 ETH + Gas. Buying a character will cost .08ETH + Gas.`,
+          content: `Fair distribution. There are no bonding curves here. Buying a poster will cost .04ETH + Gas. Buying a character will cost .08ETH + Gas.`,
       },
       {
           title: "What are the benefits of owning a Flinch NFT?",
@@ -52,8 +52,8 @@ const data = {
       },
       {
           title: "What will happen to secondary market royalties?",
-          content: `- 50 % of royalties from secondary market sales will return to the community via subsequent film develpment and production, marketing, ancilary right explitation.
-          Royalties will be set of 10% for secondary sales`,
+          content: `- 50 % of royalties from secondary market sales will return to the community via subsequent film develpment and production, marketing, ancilary right explitation.<br>
+          -Royalties will be set of 10% for secondary sales`,
       },
       {
         title: "What is the Cinema?",
