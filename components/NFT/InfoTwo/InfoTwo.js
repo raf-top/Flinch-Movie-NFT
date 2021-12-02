@@ -8,6 +8,7 @@ import Background from "../../Global/Background/Background";
 const InfoTwo = () => {
   return (
     <Wrapper>
+      <Background />
       <div className="text-center">
         <img src="https://i.postimg.cc/PfMm94FD/logo.png"/>
       </div>      
@@ -25,22 +26,23 @@ const InfoTwo = () => {
           There are 2 types of Flinch collectibles, each with fair launch and
           distribution, some rarer than others. They are:
         </p>
-        <div className="back">
+       
     
-          <InfoTwoItem        
-            header={"POSTERS:"}
-            info_1={
-              "All Poster holders receive standard access to all member perks, airdrops and value from our cinema. Poster skews are 1/3333 and mint for 0.04 ETH. There are 3 skews:"
-            }
-            info_2={""}
-            item_1_header={"90s Noir"}
-            item_2_header={"Noir"}
-            item_3_header={"Neo Noir"}
-            item_1_img={"https://i.postimg.cc/K485hz1M/90snoir.jpg"}
-            item_2_img={"https://ammedodi.sirv.com/Images/gunshot-gif.gif"}
-            item_3_img={"https://i.postimg.cc/9zgYmh9N/neonoir.jpg"}
-          />
-        </div>
+        <InfoTwoItem        
+          header={"POSTERS:"}
+          info_1={
+            "All Poster holders receive standard access to all member perks, airdrops and value from our cinema. Poster skews are 1/3333 and mint for 0.04 ETH. There are 3 skews:"
+          }
+          info_2={""}
+          item_1_header={"90s Noir"}
+          item_2_header={"Noir"}
+          item_3_header={"Neo Noir"}
+          item_1_img={"https://s10.gifyu.com/images/Fish-GIF.gif"}
+          item_2_img={"https://ammedodi.sirv.com/Images/gunshot-gif.gif"}
+          item_3_img={"https://s10.gifyu.com/images/Airbrush-GIF.gif"}
+        />
+        
+        <div className="yellow-line"></div>
         <InfoTwoItem
           header={"CHARACTERS:"}
           info_1={
@@ -53,13 +55,13 @@ const InfoTwo = () => {
           item_2_header={""}
           item_3_header={""}
           item_1_img={
-            "https://cdn.discordapp.com/attachments/903747551688294461/909888655798186066/49-498061_headshot-placeholder-headshot-placeholder-male-headshot-silhouette-gender.png"
+            "https://i.postimg.cc/Z9J1PDz3/Doyle.jpg"
           }
           item_2_img={
-            "https://cdn.discordapp.com/attachments/903747551688294461/909888655798186066/49-498061_headshot-placeholder-headshot-placeholder-male-headshot-silhouette-gender.png"
+            "https://i.postimg.cc/KkHw2Gkr/Mia.jpg"
           }
           item_3_img={
-            "https://cdn.discordapp.com/attachments/903747551688294461/909888655798186066/49-498061_headshot-placeholder-headshot-placeholder-male-headshot-silhouette-gender.png"
+            "https://i.postimg.cc/5Y0TTY02/James.jpg"
           }
         />
         
@@ -87,6 +89,12 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: flex-start;
   gap: 30px;
+
+  .yellow-line {
+    border-bottom: 2px solid #eaa721;
+    margin-top:90px;
+    width: 100%
+  }
 
   .info-header {
     font-family: interstate, sans-serif;

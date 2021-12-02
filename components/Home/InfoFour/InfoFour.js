@@ -146,13 +146,13 @@ const Wrapper = styled.div`
     }
 
     .copy-button {
-      border: 2px solid #eaa721;
+      border: 2px solid #5ec2a3;
       width: 275px;
       color: #eaa721;
       font-size: 1.35rem;
       border-radius: 0px;
       text-transform: uppercase;
-
+      border-radius: 35px !important;
       &:hover {
         color: rgba(234, 167, 33, 0.9);
       }

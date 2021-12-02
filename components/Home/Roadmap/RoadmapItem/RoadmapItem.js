@@ -112,7 +112,7 @@ const Wrapper = styled.div`
       text-align: left;
       width: 100%;
       font-weight: 800;
-      color: #eaa721;
+      color: #5ec2a3;
     }
     .pros {
       color: #5ec2a3;

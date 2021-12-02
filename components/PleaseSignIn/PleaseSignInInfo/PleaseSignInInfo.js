@@ -85,8 +85,8 @@ const Wrapper = styled.div`
     font-family: interstate, sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 2rem;
-    color: #eaa721;
+    font-size: 1.2rem;
+    color: #fff;
 
     text-align: center;
   }

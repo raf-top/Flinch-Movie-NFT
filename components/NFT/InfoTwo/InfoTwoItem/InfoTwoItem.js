@@ -78,7 +78,6 @@ export default InfoTwoItem;
 
 const Wrapper = styled.div`
   padding-top: 75px;
-
   .header {
     font-family: interstate, sans-serif;
     font-weight: 900;

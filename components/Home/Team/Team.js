@@ -11,7 +11,7 @@ const Team = () => {
 
       <div className="team">
         <TeamMember
-          img={"https://i.postimg.cc/WFXcy3hn/Doyle.jpg"}
+          img={"https://i.postimg.cc/Z9J1PDz3/Doyle.jpg"}
           header={"Writer & Director"}
           info={"Cameron Van Hoy"}
           instagram={"https://www.instagram.com/cameronvanhoy/"}
@@ -19,7 +19,7 @@ const Team = () => {
           twitter={"https://twitter.com/CameronVanHoy"}
         />
         <TeamMember
-          img={"https://i.postimg.cc/BXhfptdQ/Mia.jpg"}
+          img={"https://i.postimg.cc/KkHw2Gkr/Mia.jpg"}
           header={"Characters by"}
           info={"@sveta_has"}
           instagram={"https://www.instagram.com/sveta_has/"}
@@ -28,7 +28,7 @@ const Team = () => {
           tiktok={"https://www.tiktok.com/@sveta_has?lang=en"}
         />     
         <TeamMember
-          img={"https://i.postimg.cc/gnwbMGdV/James.jpg"}
+          img={"https://i.postimg.cc/5Y0TTY02/James.jpg"}
           header={"Developer"}
           info={"Iceyy"}
         />

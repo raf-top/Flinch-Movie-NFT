@@ -55,64 +55,64 @@ const Carousel = () => {
     <Wrapper {...settings}>
       <div className="slide-1">
         <img
-          src="https://i.postimg.cc/WFXcy3hn/Doyle.jpg"
+          src="https://i.postimg.cc/Z9J1PDz3/Doyle.jpg"
           alt=""
         />
       </div>
       <div className="slide-2">
         <img
-          src="https://i.postimg.cc/BXhfptdQ/Mia.jpg"
+          src="https://i.postimg.cc/KkHw2Gkr/Mia.jpg"
           alt=""
         />
       </div>
       <div className="slide-3">
         <img
-          src="https://i.postimg.cc/gnwbMGdV/James.jpg"
+          src="https://i.postimg.cc/5Y0TTY02/James.jpg"
           alt=""
         />
       </div>
       <div className="slide-4">
         <img
-          src="https://i.postimg.cc/WFXcy3hn/Doyle.jpg"
+          src="https://i.postimg.cc/RJJ8Ckwr/Lee.jpg"
           alt=""
         />
       </div>
       <div className="slide-5">
         <img
-          src="https://i.postimg.cc/BXhfptdQ/Mia.jpg"
+          src="https://i.postimg.cc/t7s8zxwr/Gloria.jpg"
           alt=""
         />
       </div>
       <div className="slide-6">
         <img
-          src="https://i.postimg.cc/gnwbMGdV/James.jpg"
+          src="https://i.postimg.cc/Z9J1PDz3/Doyle.jpg"
           alt=""
         />
       </div>
       <div className="slide-7">
         <img
-          src="https://i.postimg.cc/WFXcy3hn/Doyle.jpg"
+          src="https://i.postimg.cc/KkHw2Gkr/Mia.jpg"
           alt=""
         />
       </div>
       <div className="slide-8">
         <img
-          src="https://i.postimg.cc/BXhfptdQ/Mia.jpg"
+          src="https://i.postimg.cc/5Y0TTY02/James.jpg"
           alt=""
         />
       </div>
       <div className="slide-9">
         <img
-          src="https://i.postimg.cc/gnwbMGdV/James.jpg"
+          src="https://i.postimg.cc/RJJ8Ckwr/Lee.jpg"
           alt=""
         />
       </div>
-      {/* <div className="slide-10">
+      <div className="slide-10">
         <img
-          src="https://i.postimg.cc/WFXcy3hn/Doyle.jpg"
+          src="https://i.postimg.cc/t7s8zxwr/Gloria.jpg"
           alt=""
         />
-      </div> */}
+      </div>
     </Wrapper>
   );
 };
