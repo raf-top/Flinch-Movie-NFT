@@ -1,0 +1,84 @@
+/* Global Styles */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  min-width: 375px;
+  max-height: max-content;
+
+  overflow-x: hidden;
+  background-color: #191919;
+}
+
+/* width */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #191919;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #eaa721;
+  border-radius: 10px;
+}
+
+.team img {
+  border-radius: 50% !important;
+}
+
+.connect-button {
+  border-radius: 35px !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+/* Font sizes */
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+.disable-scrolling {
+  /* height: 100%;
+  overflow: hidden;
+  max-height: 100vh; */
+}
+
+/* Global animations */
+@keyframes fade-scale {
+  0% {
+    opacity: 0;
+    transform: scale(0.75);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
