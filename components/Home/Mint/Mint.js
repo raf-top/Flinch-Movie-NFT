@@ -6,13 +6,13 @@ import styled from "styled-components";
 
 // Material UI
 // import Button from "@mui/material/Button";
-import ButtonGroup from "@mui/material/ButtonGroup";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
+// import ButtonGroup from "@mui/material/ButtonGroup";
+// import InstagramIcon from "@mui/icons-material/Instagram";
+// import FacebookIcon from "@mui/icons-material/Facebook";
+// import TwitterIcon from "@mui/icons-material/Twitter";
 
-import Background from "../../Global/Background/Background";
-import MintBackground from "./MintBackground/MintBackground";
+// import Background from "../../Global/Background/Background";
+// import MintBackground from "./MintBackground/MintBackground";
 
 const Mint = () => {
   const [amountToMint, setAmountToMint] = useState(1);
