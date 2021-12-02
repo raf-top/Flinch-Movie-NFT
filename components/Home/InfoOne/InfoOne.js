@@ -82,7 +82,7 @@ const Wrapper = styled.div`
         font-weight: 900;
         font-style: normal;
         font-size: 2rem;
-        color: #e02d41;
+        color: #eaa721;
       }
 
       .info {
