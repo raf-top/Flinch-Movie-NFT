@@ -105,11 +105,11 @@ const Wrapper = styled.div`
     font-weight: 900;
     font-style: normal;
     font-size: 2rem;
-    color: #eaa721;
+    color: #e02d41;
     z-index: 2;
     position: relative; 
     padding: 20px 70px 0px 70px;
-    
+    text-align: center;
   }
 
   .back {
@@ -130,7 +130,7 @@ const Wrapper = styled.div`
     .intro {
       color: #fff;
       font-size: 1.2rem;
-
+      text-align: center;
       line-height: 31px;
       font-family: acumin-pro-wide, sans-serif;
     }
