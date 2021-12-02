@@ -8,12 +8,13 @@ import Background from "../../Global/Background/Background";
 const InfoTwo = () => {
   return (
     <Wrapper>
-      
-      <div className="text-center">
-        <img src="https://i.postimg.cc/PfMm94FD/logo.png"/>
-      </div>    
+      {/* <Background/> */}
       <div className="back">
-        <p className="info-header">Specs</p>
+        <div className="text-center">
+          <img src="https://i.postimg.cc/PfMm94FD/logo.png"/>
+        </div>    
+     
+        <p className="info-header">SPECS</p>
 
         <div className="content">
           <div className="sub-wrap">
@@ -44,7 +45,7 @@ const InfoTwo = () => {
               item_3_img={"https://s10.gifyu.com/images/Airbrush-GIF.gif"}
             />
           </div>
-          <div className="yellow-line"></div>
+          
           <div className="sub-wrap">
             <InfoTwoItem
               header={"CHARACTERS:"}
@@ -78,7 +79,7 @@ export default InfoTwo;
 
 const Wrapper = styled.div`
   padding: 0px;
-  padding-top: 150px;
+  padding-top: 82.25px;
 
   //
   width: 100%;
@@ -94,14 +95,9 @@ const Wrapper = styled.div`
   align-items: flex-start;
   gap: 30px;
 
-  .yellow-line {
-    border-bottom: 2px solid #eaa721;
-    margin-top: 90px;
-    width: 100vw
-  }
 
   .sub-wrap {
-    padding: 30px;
+    padding: 0 70px;
   }
 
   .info-header {
@@ -112,7 +108,7 @@ const Wrapper = styled.div`
     color: #eaa721;
     z-index: 2;
     position: relative; 
-    padding: 20px 30px 0px 30px;
+    padding: 20px 70px 0px 70px;
     
   }
 
@@ -121,7 +117,7 @@ const Wrapper = styled.div`
     padding: 0px;
   }
   .text-center {
-    margin: 0 auto;
+    margin: 40px auto;
     text-align: center;
   }
   .content {
