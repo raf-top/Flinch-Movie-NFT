@@ -16,56 +16,58 @@ const InfoTwo = () => {
         <p className="info-header">Specs</p>
 
         <div className="content">
-          <p className="intro">
-            All Flinch NFT holders have access to members only areas, virtual
-            premieres, collaborations with the filmmakers, revenue from the cinema
-            and airdrops. Fanvestors will also get a &quot;kit&quot; complete with
-            social ready assets to spread the word.
-          </p>
+          <div className="sub-wrap">
+            <p className="intro">
+              All Flinch NFT holders have access to members only areas, virtual
+              premieres, collaborations with the filmmakers, revenue from the cinema
+              and airdrops. Fanvestors will also get a &quot;kit&quot; complete with
+              social ready assets to spread the word.
+            </p>
 
-          <p className="info">
-            There are 2 types of Flinch collectibles, each with fair launch and
-            distribution, some rarer than others. They are:
-          </p>
-        
+            <p className="info">
+              There are 2 types of Flinch collectibles, each with fair launch and
+              distribution, some rarer than others. They are:
+            </p>
+          
       
-          <InfoTwoItem        
-            header={"POSTERS:"}
-            info_1={
-              "All Poster holders receive standard access to all member perks, airdrops and value from our cinema. Poster skews are 1/3333 and mint for 0.04 ETH. There are 3 skews:"
-            }
-            info_2={""}
-            item_1_header={"90s Noir"}
-            item_2_header={"Noir"}
-            item_3_header={"Neo Noir"}
-            item_1_img={"https://s10.gifyu.com/images/Fish-GIF.gif"}
-            item_2_img={"https://ammedodi.sirv.com/Images/gunshot-gif.gif"}
-            item_3_img={"https://s10.gifyu.com/images/Airbrush-GIF.gif"}
-          />
-          
+            <InfoTwoItem        
+              header={"POSTERS:"}
+              info_1={
+                "All Poster holders receive standard access to all member perks, airdrops and value from our cinema. Poster skews are 1/3333 and mint for 0.04 ETH. There are 3 skews:"
+              }
+              info_2={""}
+              item_1_header={"90s Noir"}
+              item_2_header={"Noir"}
+              item_3_header={"Neo Noir"}
+              item_1_img={"https://s10.gifyu.com/images/Fish-GIF.gif"}
+              item_2_img={"https://ammedodi.sirv.com/Images/gunshot-gif.gif"}
+              item_3_img={"https://s10.gifyu.com/images/Airbrush-GIF.gif"}
+            />
+          </div>
           <div className="yellow-line"></div>
-          <InfoTwoItem
-            header={"CHARACTERS:"}
-            info_1={
-              "All Character holders will enjoy ownership over their character in the Metaverse and in future games. Some of the characters appear in part 1 of the movie franchise. Others will appear in future films and games. In addition to standard membership perks, Flinch Character holders will have voting rights over various creative decisions about the story line of the Flinch universe.  The more characters you own, the more say you have in development. Character holders will also receive free merch and invites to in person movie premieres, screenings and after parties."
-            }
-            info_2={
-              "Poster holders get first dib on Character NFT mint.  Drops once 20% of Posters are minted."
-            }
-            item_1_header={""}
-            item_2_header={""}
-            item_3_header={""}
-            item_1_img={
-              "https://i.postimg.cc/Z9J1PDz3/Doyle.jpg"
-            }
-            item_2_img={
-              "https://i.postimg.cc/KkHw2Gkr/Mia.jpg"
-            }
-            item_3_img={
-              "https://i.postimg.cc/5Y0TTY02/James.jpg"
-            }
-          />
-          
+          <div className="sub-wrap">
+            <InfoTwoItem
+              header={"CHARACTERS:"}
+              info_1={
+                "All Character holders will enjoy ownership over their character in the Metaverse and in future games. Some of the characters appear in part 1 of the movie franchise. Others will appear in future films and games. In addition to standard membership perks, Flinch Character holders will have voting rights over various creative decisions about the story line of the Flinch universe.  The more characters you own, the more say you have in development. Character holders will also receive free merch and invites to in person movie premieres, screenings and after parties."
+              }
+              info_2={
+                "Poster holders get first dib on Character NFT mint.  Drops once 20% of Posters are minted."
+              }
+              item_1_header={""}
+              item_2_header={""}
+              item_3_header={""}
+              item_1_img={
+                "https://i.postimg.cc/Z9J1PDz3/Doyle.jpg"
+              }
+              item_2_img={
+                "https://i.postimg.cc/KkHw2Gkr/Mia.jpg"
+              }
+              item_3_img={
+                "https://i.postimg.cc/5Y0TTY02/James.jpg"
+              }
+            />
+          </div>
         </div>
       </div>
     </Wrapper>
@@ -95,7 +97,11 @@ const Wrapper = styled.div`
   .yellow-line {
     border-bottom: 2px solid #eaa721;
     margin-top: 90px;
-    width: 100%
+    width: 100vw
+  }
+
+  .sub-wrap {
+    padding: 30px;
   }
 
   .info-header {
@@ -106,12 +112,13 @@ const Wrapper = styled.div`
     color: #eaa721;
     z-index: 2;
     position: relative; 
-    padding-top: 20px;
+    padding: 20px 30px 0px 30px;
+    
   }
 
   .back {
     background: #ffffff url(https://www.flinchthemovie.com/wp-content/uploads/2020/12/flinch-background.jpg) top left fixed;
-    padding: 0 23px 30px 23px;
+    padding: 0px;
   }
   .text-center {
     margin: 0 auto;
@@ -123,7 +130,7 @@ const Wrapper = styled.div`
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
-    padding: 20px;
+    padding: 0px;
     .intro {
       color: #fff;
       font-size: 1.2rem;

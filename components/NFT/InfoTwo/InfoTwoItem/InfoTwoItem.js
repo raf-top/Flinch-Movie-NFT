@@ -77,7 +77,7 @@ const InfoTwoItem = (props) => {
 export default InfoTwoItem;
 
 const Wrapper = styled.div`
-  padding-top: 75px;
+  padding-top: 75px 30px;
   .header {
     font-family: interstate, sans-serif;
     font-weight: 900;
