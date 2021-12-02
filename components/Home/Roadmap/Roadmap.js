@@ -25,6 +25,7 @@ const Roadmap = () => {
             align={"left"}
             img={"https://ammedodi.sirv.com/Images/church.png"}
             title={"10"}
+            pros="%"
             info={`Pay back the loan shark before we get our legs broken.`}
           />
 
@@ -32,6 +33,7 @@ const Roadmap = () => {
             align={"right"}
             img={"https://ammedodi.sirv.com/Images/doyle.png"}
             title={"20"}
+            pros="%"
             info={`Drop the Character NFTs. Airdrop 10 to random Poster holders.`}
           />
 
@@ -39,6 +41,7 @@ const Roadmap = () => {
             align={"left"}
             img={"https://ammedodi.sirv.com/Images/ED.png"}
             title={"40"}
+            pros="%"
             info={`2 billboards in major cities will be rented to promote Flinch. Holders vote on where.`}
           />
 
@@ -46,6 +49,7 @@ const Roadmap = () => {
             align={"right"}
             img={"https://ammedodi.sirv.com/Images/fire.png"}
             title={"60"}
+            pros="%"
             info={`Distribute $20k worth of ETH via airdrop to 10 random Flinch holders.
             `}
           />
@@ -54,6 +58,7 @@ const Roadmap = () => {
             align={"left"}
             img={"https://ammedodi.sirv.com/Images/fish.png"}
             title={"80"}
+            pros="%"
             info={`
             Establish three funds. One for marketing, one for development, one for buying back the least expensive Flinch  NFTs. Each fund will be allocated 10% from profits.`}
           />
@@ -62,6 +67,7 @@ const Roadmap = () => {
             align={"right"}
             img={"https://ammedodi.sirv.com/Images/gloria.png"}
             title={"100"}
+            pros="%"
             info={`
             Begin making the second film. Once that film is released, new Poster and Cinematics will drop along with the film. All current holders will be airdropped companion NFTs for part two.`}
           />
@@ -70,6 +76,7 @@ const Roadmap = () => {
             align={"left"}
             img={"https://ammedodi.sirv.com/Images/neonjesus.png"}
             title={"Post Launch"}
+            pros=""
             info={`
             How epic a crime franchise can we build? The Metaverse is the limit. Cinema income will be paid out to members monthly from the top of launch. Airdrops might be paid via layer 2 or via NFT re-purchase until layer 2 workflow is established. Virtual cinemas will be built in the Metaverse that you and your friends can attend together.`}
           />

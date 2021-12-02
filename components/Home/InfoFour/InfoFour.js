@@ -63,14 +63,13 @@ const Wrapper = styled.div`
 
   position: relative;
   overflow: hidden;
-
+  background: #100d0d;
   border-top: 2px solid #eaa721;
   border-bottom: 2px solid #eaa721;
 
   .content {
     width: 100%;
-    padding: 50px 0px;
-    background: black;
+    padding: 50px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;

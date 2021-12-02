@@ -24,7 +24,7 @@ const RoadmapItem = (props) => {
           </div>
 
           <div className="content">
-            <p className="title">{props.title}<span className="pros">%</span></p>
+            <p className="title">{props.title}<span className="pros">{props.pros}</span></p>
             <p className="info">{props.info}</p>
           </div>
         </Wrapper>
@@ -39,7 +39,7 @@ const RoadmapItem = (props) => {
             </div>
 
             <div className="content">
-              <p className="title">{props.title}<span className="pros">%</span></p>
+              <p className="title">{props.title}<span className="pros">{props.pros}</span></p>
               <p className="info">{props.info}</p>
             </div>
           </Wrapper>

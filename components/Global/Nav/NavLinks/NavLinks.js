@@ -134,9 +134,9 @@ const Wrapper = styled.div`
   }
 
   .connect-button {
-    border: 2px solid #e02d41;
+    border: 2px solid #5ec2a3;
     width: 200px;
-    color: #e02d41;
+    color: #eaa721;
     font-size: 1.25rem;
     border-radius: 0px;
     text-transform: uppercase;
