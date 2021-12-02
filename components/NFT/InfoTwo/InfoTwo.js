@@ -19,13 +19,11 @@ const InfoTwo = () => {
         <div className="content">
           <div className="sub-wrap">
             <p className="intro">
-              All Flinch NFT holders have access to members only areas, virtual premieres, <br/>
-              with the filmmakers, value from the cinema and airdrops. Fanvestors will<br/>
-              also get a &quot;kit&quot; complete with social ready assets to spread the word.<br/>
-              
+              All Flinch NFT holders have access to members only areas, virtual premieres,<br/>
+              collaborations with the filmmakers, value from the cinema and airdrops. Fanvestors <br/>
+              will also get a &quot;kit&quot; complete with social ready assets to spread the word.
             </p>
-
-            <p className="info">
+            <p className="info text-center-middle">
               There are 2 types of Flinch collectibles, each with fair launch and distribution,<br/>
               some rarer than others.
             </p>
@@ -120,6 +118,9 @@ const Wrapper = styled.div`
     margin: 40px auto;
     text-align: center;
   }
+  .text-center-middle {
+    text-align: center;
+  }
   .content {
     display: flex;
     flex-direction: column;
@@ -138,7 +139,6 @@ const Wrapper = styled.div`
     .info {
       color: #fff;
       font-size: 1.2rem;
-      text-align: center;
       line-height: 31px;
       font-family: acumin-pro-wide, sans-serif;
     }
