@@ -46,8 +46,8 @@ const data = {
       },
       {
           title: "What are the benefits of owning a Flinch NFT?",
-          content: `- Owning a Flinch NFT gives you access to and benefits from a movie franchise in both the digital and real world.
-          - We are building a large movie studio platform for lots more films. This platform will have a native token. Flinch NFTs will be able to be staked to earn this coin.
+          content: `- Owning a Flinch NFT gives you access to and benefits from a movie franchise in both the digital and real world.<br>
+          - We are building a large movie studio platform for lots more films. This platform will have a native token. Flinch NFTs will be able to be staked to earn this coin.<br>
           - Films are a collaborative art form. our community must collaborate to make the best franchise wcan. The metaverse is the limit.`,
       },
       {
