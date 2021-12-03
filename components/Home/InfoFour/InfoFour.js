@@ -95,13 +95,13 @@ const Wrapper = styled.div`
       font-family: interstate, sans-serif;
       font-weight: 900;
       font-style: normal;
-      font-size: 2rem;
+      font-size: 1.6rem;
       color: #eaa721;
     }
 
     .info {
       color: #fff;
-      font-size: 1.2rem;
+      font-size: 1.0rem;
       line-height: 31px;
       text-align: center;
     }
