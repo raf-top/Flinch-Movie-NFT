@@ -97,7 +97,6 @@ const Wrapper = styled.div`
     @media only screen and (max-width: 650px) {
       width: 60vw;
     }
-
   }
 
   .sub-wrap {
