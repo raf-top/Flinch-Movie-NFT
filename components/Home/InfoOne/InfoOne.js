@@ -20,6 +20,7 @@ const InfoOne = () => {
             Flinch NFT&apos;s are a collection of 15,000 unique NFTs - digital
             collectables from the motion picture Flinch, that live on the
             Ethereum blockchain. 
+            <br/><br/>
             They are comprised of Generative Character and Poster NFTs.
             Your Flinch NFT gives you governance over the Flinch
             franchise. As the franchise unfolds, your NFT will double as your
@@ -115,7 +116,7 @@ const Wrapper = styled.div`
       .info {
         &-1 {
           color: #fff;
-          font-size: 1.2rem;
+          font-size: 1.1rem;
 
           line-height: 31px;
           font-family: acumin-pro-wide, sans-serif;
@@ -123,7 +124,7 @@ const Wrapper = styled.div`
 
         &-2 {
           color: #fff;
-          font-size: 1.2rem;
+          font-size: 1.1rem;
 
           line-height: 31px;
           font-family: acumin-pro-wide, sans-serif;
