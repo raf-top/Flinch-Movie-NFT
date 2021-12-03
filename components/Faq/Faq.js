@@ -11,15 +11,13 @@ const Faq = () => {
   return (
     <Wrapper>
       <Nav />
-      <Wrapper>
+      <Wrappertwo>
         <Faqs
           data={data}
           styles={styles}
           config={config}
         />
-      </Wrapper>
-        
-
+      </Wrappertwo>    
       <Footer />
     </Wrapper>
   );
@@ -80,11 +78,10 @@ const config = {
 export default Faq;
 
 const Wrapper = styled.div`
-  padding: 0 20px;
   padding-top: 60px;
 
   //
-  width: 1300px;
+  width: 100vw;
   @media only screen and (max-width: 1350px) {
     width: 100%;
   }
@@ -105,4 +102,8 @@ const Wrapper = styled.div`
     color: white !important;
     margin: 0 20px;
   }
+  `;
+
+  const Wrappertwo = styled.div`
+  padding: 60px;
   `;
