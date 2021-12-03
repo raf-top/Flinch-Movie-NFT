@@ -26,7 +26,7 @@ const PleaseSignInInfo = () => {
     <Wrapper>
       <div className="video">
         <p className="info-2">
-        Connect your wallet to watch the movie. Pay 1 Matic token to watch the film and be entered into our whitelist for first access to the NFT mint.
+        Connect your wallet to watch the movie.<br/> Pay 1 Matic token to watch the film and be entered into our whitelist for first access to the NFT mint.
         </p>
 
         <iframe
