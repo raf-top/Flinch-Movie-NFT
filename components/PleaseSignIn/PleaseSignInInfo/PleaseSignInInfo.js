@@ -55,7 +55,7 @@ export default PleaseSignInInfo;
 
 const Wrapper = styled.div`
   padding: 0 20px;
-  padding-bottom: 20px;
+  padding-bottom: 60px !important;
 
   display: flex;
   flex-direction: column;
