@@ -46,7 +46,8 @@ const data = {
           title: "What are the benefits of owning a Flinch NFT?",
           content: `<ul><li>Owning a Flinch NFT gives you access to and benefits from a movie franchise in both the digital and real world.</li><br/>
           <li> We are building a large movie studio platform for lots more films. This platform will have a native token. Flinch NFTs will be able to be staked to earn this coin.</li><br/>
-          <li> Films are a collaborative art form. Our community must collaborate to make the best franchise we can. The metaverse is the limit.</li><br/></ul>`,
+          <li> Films are a collaborative art form. Our community must collaborate to make the best franchise we can. The metaverse is the limit.</li><br/>
+          <li>NFT holders are rewarded by the Cinema.</li><br/></ul>`,
       },
       {
           title: "What will happen to secondary market royalties?",
