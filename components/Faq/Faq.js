@@ -28,9 +28,9 @@ const data = {
   rows: [
       {
           title: "What is Flinch?",
-          content: `Flinch is the world's first movie franchise on the blockchain. In the future we will look back and remember the days when
+          content: `<ul><li>Flinch is the world's first movie franchise on the blockchain. In the future we will look back and remember the days when
           fans had no participation or governance over the art they love. Movie franchises grow into epic stories with a variety of characters. They allow for spinoffs, games,
-          merchandise and other ancillary works. Now we will build a franchise as a community.`,
+          merchandise and other ancillary works. Now we will build a franchise as a community.</li></ul>`,
       },
       {
           title: "How do I purchase a Flinch NFT?",
@@ -40,7 +40,7 @@ const data = {
       },
       {
           title: "How are Flinch NFTs distributed?",
-          content: `Fair distribution. There are no bonding curves here. Buying a poster will cost .04ETH + Gas. Buying a Character will cost .08ETH + Gas.`,
+          content: `<ul><li>Fair distribution. There are no bonding curves here. Buying a poster will cost .04ETH + Gas. Buying a Character will cost .08ETH + Gas.</li></ul>`,
       },
       {
           title: "What are the benefits of owning a Flinch NFT?",
@@ -50,7 +50,7 @@ const data = {
       },
       {
           title: "What will happen to secondary market royalties?",
-          content: `Royalties will be set to 10% for secondary sales`,
+          content: `<ul><li>Royalties will be set to 10% for secondary sales</li></ul>`,
       },
       {
         title: "What is the Cinema?",
@@ -58,7 +58,8 @@ const data = {
         we can sit in a virtual Cinema, in our avatar, with ten friends from around the world, or one million random people, to watch a film. This is just the beginning.</li>
         <li>When you watch Flinch in the Cinema you are added to the whitelist. Post-mint all Cinema visitors will be eligible for
         random airdrops of Poster and Character NFTs and much more. Going to the movies is the gift that keeps giving.</li>
-        <li>Currently Matic is the best payment solution for the cinema. We're working on other chain and coin payment solutions to broaden our reach.</li></ul>`
+        <li>Currently Matic is the best payment solution for the cinema. We're working on other chain and coin payment solutions to broaden our reach.</li>
+        <li>If you pay to watch, you will be able to watch any time your wallet is connected to the Cinema.</li></ul>`
     },
   ],
 };
@@ -96,7 +97,9 @@ const Wrapper = styled.div`
   align-items: flex-start;
   gap: 30px;
 
-
+  li {
+    margin-left: 10px;
+  }
   .icon-wrapper  {
     color: #eaa721 !important;
   }
