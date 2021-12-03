@@ -131,7 +131,7 @@ const Wrapper = styled.div`
     padding: 0px;
     .intro {
       color: #fff;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       text-align: center;
       line-height: 31px;
       font-family: acumin-pro-wide, sans-serif;
@@ -139,7 +139,7 @@ const Wrapper = styled.div`
 
     .info {
       color: #fff;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       line-height: 31px;
       font-family: acumin-pro-wide, sans-serif;
     }
