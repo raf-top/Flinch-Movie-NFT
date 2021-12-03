@@ -96,7 +96,7 @@ const Wrapper = styled.div`
 
 
   .sub-wrap {
-    padding: 0 95px;
+    padding: 0 130px;
   }
 
   .info-header {
