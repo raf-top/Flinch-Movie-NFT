@@ -27,11 +27,10 @@ const InfoFour = () => {
 
         <p className="info">
           Unlike other NFT projects, making the films is not a future goal, part
-          one is complete. What happens next is up to you. To access the cinema
-          for free and watch the film, Flinch NFT holders will need to be signed
-          in to their Metamask wallet. Non Flinch holders can watch Flinch in
-          our cinema for 2 Matic tokens. 
-          Flinch holders will be rewarded value from the cinema via monthly airdrops, in our token of choice.
+          one is complete. What happens next is up to you.<br/>
+          To access the cinema for free and watch the film, Flinch NFT holders will need to be signed in to their Metamask wallet. <br/>
+          Non Flinch holders can watch Flinch in our cinema for 2 Matic tokens. Flinch holders will be rewarded value from the<br/>
+          cinema via monthly airdrops, in our token of choice.
         </p>
 
         <div className="cinema">
@@ -95,13 +94,13 @@ const Wrapper = styled.div`
       font-family: interstate, sans-serif;
       font-weight: 900;
       font-style: normal;
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       color: #eaa721;
     }
 
     .info {
       color: #fff;
-      font-size: 1.0rem;
+      font-size: 1.1rem;
       line-height: 31px;
       text-align: center;
     }
