@@ -85,7 +85,9 @@ const NavLinksMobile = (props) => {
             <Link href="/cinema" onClick={mobileMenuHandler}>
               Cinema
             </Link>
-
+            <Link href="/nft" onClick={mobileMenuHandler}>
+              NFT
+            </Link>
             <Link href="/#strategy" onClick={mobileMenuHandler}>
               Strategy
             </Link>
@@ -93,7 +95,7 @@ const NavLinksMobile = (props) => {
               Story
             </Link>
             <Link href="/faq" onClick={mobileMenuHandler}>
-              Faq
+              FAQ
             </Link>
             <Button className="connect-button" onClick={handleConnection}>
               {connected ? <p>Disconnect</p> : <p>Connect</p>}
