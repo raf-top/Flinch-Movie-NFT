@@ -49,10 +49,10 @@ const InfoTwo = () => {
             <InfoTwoItem
               header={"CHARACTERS:"}
               info_1={
-                "All Character holders will enjoy ownership over their character in the Metaverse and in future games. Some of the characters appear in part 1 of the movie franchise. Others will appear in future films and games. In addition to standard membership perks, Flinch Character holders will have voting rights over various creative decisions about the story line of the Flinch universe.  The more characters you own, the more say you have in development. Character holders will also receive free merch and invites to in person movie premieres, screenings and after parties."
+                "All Character holders will enjoy ownership over their character in the Metaverse and in future games. Some of the characters appear in part 1 of the movie franchise. Others will appear in future films and games. In addition to standard membership perks, Flinch Character holders will have voting rights over various creative decisions about the story line of the Flinch universe."
               }
               info_2={
-                "Poster holders get first dib on Character NFT mint.  Drops once 20% of Posters are minted."
+                "The more characters you own, the more say you have in development. Character holders will also receive free merch and invites to in person movie premieres, screenings and after parties. Poster holders get first dib on Character NFT mint.  Drops once 20% of Posters are minted."
               }
               item_1_header={""}
               item_2_header={""}
