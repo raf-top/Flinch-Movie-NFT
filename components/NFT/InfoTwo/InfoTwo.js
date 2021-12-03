@@ -102,6 +102,10 @@ const Wrapper = styled.div`
   .sub-wrap {
     padding: 0 130px;
     width: 100%;
+    @media only screen and (max-width: 825px) {
+      padding: 0 20px;
+    }
+
   }
 
   .info-header {
