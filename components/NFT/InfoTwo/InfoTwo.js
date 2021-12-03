@@ -79,6 +79,10 @@ const Wrapper = styled.div`
   padding: 0px;
   padding-top: 82.25px;
 
+  @media only screen and (max-width: 1015px) {
+    padding-top: 73.33px;
+  }
+
   //
   width: 100%;
   @media only screen and (max-width: 1350px) {
