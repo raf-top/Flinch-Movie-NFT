@@ -16,7 +16,7 @@ const InfoTwoItem = (props) => {
         <div className="items">
           {props.item_1_video === true ? (
             <div className="item">
-              <p className="info">{props.item_1_header}</p>
+              <p className="info font-blue">{props.item_1_header}</p>
               <video
                 autoPlay={true}
                 loop={true}
@@ -33,14 +33,14 @@ const InfoTwoItem = (props) => {
             </div>
           ) : (
             <div className="item">
-              <p className="info">{props.item_1_header}</p>
+              <p className="info font-blue">{props.item_1_header}</p>
               <img src={props.item_1_img} alt="" className="img" />
             </div>
           )}
 
           {props.item_2_video === true ? (
             <div className="item">
-              <p className="info">{props.item_2_header}</p>
+              <p className="info font-blue">{props.item_2_header}</p>
               <video
                 autoPlay={true}
                 loop={true}
@@ -57,14 +57,14 @@ const InfoTwoItem = (props) => {
             </div>
           ) : (
             <div className="item">
-              <p className="info">{props.item_2_header}</p>
+              <p className="info font-blue">{props.item_2_header}</p>
               <img src={props.item_2_img} alt="" className="img" />
             </div>
           )}
 
           {props.item_3_img.length > 0 && (
             <div className="item">
-              <p className="info">{props.item_3_header}</p>
+              <p className="info font-blue">{props.item_3_header}</p>
               <img src={props.item_3_img} alt="" className="img" />
             </div>
           )}
@@ -105,11 +105,14 @@ const Wrapper = styled.div`
       line-height: 31px;
       font-family: acumin-pro-wide, sans-serif;
     }
+    .font-blue {
+      color: #5ec2a3 !important;
+    }
   }
 
   .items {
     width: 100%;
-    
+    padding-bottom: 60px;
     //
     display: flex;
     justify-content: ${(props) =>

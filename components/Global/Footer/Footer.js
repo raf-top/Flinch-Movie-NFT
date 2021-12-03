@@ -64,7 +64,7 @@ const Footer = () => {
 export default Footer;
 
 const Wrapper = styled.footer`
-  margin-top: 100px;
+  
   padding: 20px;
 
   background-color: #191919;

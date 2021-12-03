@@ -12,8 +12,7 @@ const Roadmap = () => {
   return (
     <Fragment>
   
-      <Wrapper id="strategy">
-       
+      <Wrapper id="strategy">       
         <p className="header">The Strategy</p>
         <Background variant={"InfoFour"} />
         <div className="line-wrapper">
@@ -90,7 +89,6 @@ export default Roadmap;
 
 const Wrapper = styled.div`
   width: 100%;
-  margin-top: 100px;
   color: #fff;
   position: relative;
 
