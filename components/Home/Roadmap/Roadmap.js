@@ -33,7 +33,7 @@ const Roadmap = () => {
             img={"https://ammedodi.sirv.com/Images/doyle.png"}
             title={"20"}
             pros="%"
-            info={`Drop the Character NFTs. Airdrop 10 to random Poster holders.`}
+            info={`Open the mint for Character NFTs. Airdrop 10 for free to random Poster NFT holders.`}
           />
 
           <RoadmapItem

@@ -30,7 +30,7 @@ const InfoFour = () => {
           one is complete. What happens next is up to you. To access the cinema
           for free and watch the film, Flinch NFT holders will need to be signed
           in to their Metamask wallet. Non Flinch holders can watch Flinch in
-          our cinema for $1 USD worth of various coins. 
+          our cinema for 2 Matic tokens. 
           Flinch holders will be rewarded value from the cinema via monthly airdrops, in our token of choice.
         </p>
 
