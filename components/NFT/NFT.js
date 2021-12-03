@@ -13,8 +13,10 @@ const NFT = () => {
     <Wrapper>
       <Nav />
       <InfoTwo />
-
+      <div className="footer-block">
       <Footer />
+      </div>
+      
     </Wrapper>
   );
 };

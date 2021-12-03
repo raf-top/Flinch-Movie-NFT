@@ -11,7 +11,7 @@ const InfoTwo = () => {
       {/* <Background/> */}
       <div className="back">
         <div className="text-center">
-          <img src="https://i.postimg.cc/PfMm94FD/logo.png"/>
+          <img className="width-50" src="https://i.postimg.cc/PfMm94FD/logo.png"/>
         </div>    
      
         <p className="info-header">SPECS</p>
@@ -25,8 +25,7 @@ const InfoTwo = () => {
             <br/>
             <p className="info text-center-middle">
               Fanvestors will also get a &quot;kit&quot; complete with social ready assets to spread the word.<br/>
-              There are 2 types of Flinch collectibles, each with fair launch and distribution,<br/>
-              some rarer than others.
+              There are 2 types of Flinch collectibles, each with fair launch and distribution, some rarer than others.
             </p>
           
       
@@ -91,12 +90,19 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
   gap: 30px;
 
+  .width-50 {
+    width: auto;
+    @media only screen and (max-width: 650px) {
+      width: 60vw;
+    }
+
+  }
 
   .sub-wrap {
     padding: 0 130px;
+    width: 100%;
   }
 
   .info-header {
@@ -121,12 +127,14 @@ const Wrapper = styled.div`
   }
   .text-center-middle {
     text-align: center;
+    @media only screen and (max-width: 825px) {
+      text-align: left;
+    }
   }
   .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
     gap: 10px;
     padding: 0px;
     .intro {
@@ -135,6 +143,9 @@ const Wrapper = styled.div`
       text-align: center;
       line-height: 31px;
       font-family: acumin-pro-wide, sans-serif;
+      @media only screen and (max-width: 825px) {
+        text-align: left;
+      }
     }
 
     .info {
@@ -142,6 +153,9 @@ const Wrapper = styled.div`
       font-size: 1.1rem;
       line-height: 31px;
       font-family: acumin-pro-wide, sans-serif;
+      @media only screen and (max-width: 750px) {
+        text-align: left;
+      }
     }
   }
 `;
