@@ -20,10 +20,11 @@ const InfoTwo = () => {
           <div className="sub-wrap">
             <p className="intro">
               All Flinch NFT holders have access to members only areas, virtual premieres,<br/>
-              collaborations with the filmmakers, value from the cinema and airdrops. Fanvestors <br/>
-              will also get a &quot;kit&quot; complete with social ready assets to spread the word.
+              collaborations with the filmmakers, value from the cinema and airdrops. 
             </p>
+            <br/>
             <p className="info text-center-middle">
+              Fanvestors will also get a &quot;kit&quot; complete with social ready assets to spread the word.<br/>
               There are 2 types of Flinch collectibles, each with fair launch and distribution,<br/>
               some rarer than others.
             </p>
