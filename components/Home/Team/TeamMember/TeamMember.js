@@ -82,7 +82,7 @@ const Wrapper = styled.div`
     gap: 10px;
 
     .header {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       font-weight: 500;
 
       color: #eaa721;

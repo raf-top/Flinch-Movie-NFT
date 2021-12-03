@@ -68,7 +68,7 @@ const Roadmap = () => {
             title={"100"}
             pros="%"
             info={`
-            Begin making the second film. Once that film is released, new Poster and Cinematics will drop along with the film. All current holders will be airdropped companion NFTs for part two.`}
+            Begin making the second film in the franchise. Once part two is released, new Poster NFTs will drop. All current Flinch NFT holders will be airdropped companion Poster NFTs for part two.`}
           />
 
           <RoadmapItem
@@ -77,7 +77,7 @@ const Roadmap = () => {
             title={"Post Launch"}
             pros=""
             info={`
-            How epic a crime franchise can we build? The Metaverse is the limit. Cinema income will be paid out to members monthly from the top of launch. Airdrops might be paid via layer 2 or via NFT re-purchase until layer 2 workflow is established. Virtual cinemas will be built in the Metaverse that you and your friends can attend together.`}
+            How epic a crime franchise can we build? The Metaverse is the limit. Our film will play in our cinema, our cinema rewards our NFT holders monthly. Airdrops might be via layer 2 or via NFT re-purchase until layer 2 workflow is established. Virtual cinemas will be built in the Metaverse that you and your friends can attend together.`}
           />
         </div>
       </Wrapper>

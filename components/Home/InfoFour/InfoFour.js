@@ -103,6 +103,7 @@ const Wrapper = styled.div`
       color: #fff;
       font-size: 1.2rem;
       line-height: 31px;
+      text-align: center;
     }
 
     .cinema {

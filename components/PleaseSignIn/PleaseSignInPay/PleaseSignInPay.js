@@ -53,7 +53,7 @@ const PleaseSignInPay = () => {
       {!isWhitelisted && userAddress.length > 0 && (
         <div className="pay">
           <p className="header">
-            Please send 1 MATIC here to gain access to the cinema
+            Please send 2 MATIC here to gain access to the cinema
           </p>
 
           <Button className="button" onClick={whitelistUser}>
