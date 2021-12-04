@@ -57,13 +57,13 @@ const InfoTwo = () => {
               item_2_header={""}
               item_3_header={""}
               item_1_img={
-                "https://i.postimg.cc/Z9J1PDz3/Doyle.jpg"
+                "https://ammedodi.sirv.com/Images/Doyle.jpeg"
               }
               item_2_img={
-                "https://i.postimg.cc/KkHw2Gkr/Mia.jpg"
+                "https://ammedodi.sirv.com/Images/Mia.jpeg"
               }
               item_3_img={
-                "https://i.postimg.cc/5Y0TTY02/James.jpg"
+                "https://ammedodi.sirv.com/Images/James.jpeg"
               }
             />
           </div>

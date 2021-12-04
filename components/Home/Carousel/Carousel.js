@@ -55,61 +55,61 @@ const Carousel = () => {
     <Wrapper {...settings}>
       <div className="slide-1">
         <img
-          src="https://i.postimg.cc/Z9J1PDz3/Doyle.jpg"
+          src="https://ammedodi.sirv.com/Images/Doyle.jpeg"
           alt=""
         />
       </div>
       <div className="slide-2">
         <img
-          src="https://i.postimg.cc/KkHw2Gkr/Mia.jpg"
+          src="https://ammedodi.sirv.com/Images/Mia.jpeg"
           alt=""
         />
       </div>
       <div className="slide-3">
         <img
-          src="https://i.postimg.cc/5Y0TTY02/James.jpg"
+          src="https://ammedodi.sirv.com/Images/James.jpeg"
           alt=""
         />
       </div>
       <div className="slide-4">
         <img
-          src="https://i.postimg.cc/RJJ8Ckwr/Lee.jpg"
+          src="https://ammedodi.sirv.com/Images/Lee.jpeg"
           alt=""
         />
       </div>
       <div className="slide-5">
         <img
-          src="https://i.postimg.cc/t7s8zxwr/Gloria.jpg"
+          src="https://ammedodi.sirv.com/Images/Gloria.jpeg"
           alt=""
         />
       </div>
       <div className="slide-6">
         <img
-          src="https://i.postimg.cc/Z9J1PDz3/Doyle.jpg"
+          src="https://ammedodi.sirv.com/Images/Doyle.jpeg"
           alt=""
         />
       </div>
       <div className="slide-7">
         <img
-          src="https://i.postimg.cc/KkHw2Gkr/Mia.jpg"
+          src="https://ammedodi.sirv.com/Images/Mia.jpeg"
           alt=""
         />
       </div>
       <div className="slide-8">
         <img
-          src="https://i.postimg.cc/5Y0TTY02/James.jpg"
+          src="https://ammedodi.sirv.com/Images/James.jpeg"
           alt=""
         />
       </div>
       <div className="slide-9">
         <img
-          src="https://i.postimg.cc/RJJ8Ckwr/Lee.jpg"
+          src="https://ammedodi.sirv.com/Images/Lee.jpeg"
           alt=""
         />
       </div>
       <div className="slide-10">
         <img
-          src="https://i.postimg.cc/t7s8zxwr/Gloria.jpg"
+          src="https://ammedodi.sirv.com/Images/Gloria.jpeg"
           alt=""
         />
       </div>

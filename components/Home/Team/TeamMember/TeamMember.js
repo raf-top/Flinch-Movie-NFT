@@ -56,6 +56,7 @@ const Wrapper = styled.div`
 
   img {
     height: 80%;
+    width: 200px;
   }
 
   //

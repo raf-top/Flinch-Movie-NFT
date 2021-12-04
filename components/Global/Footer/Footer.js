@@ -43,7 +43,7 @@ const Footer = () => {
         </a>
         <a href="https://discord.gg/4kXCGGSu" target="_blank" rel="noreferrer">
           <img
-            src="https://ucarecdn.com/4fa5967f-7ee1-496d-b39f-09f6b3605d2c/"
+            src="https://cdn.discordapp.com/attachments/916423204459933767/916771439917547602/discord-icon.svg"
             alt=""
             className="icon"
           />
@@ -68,7 +68,7 @@ const Wrapper = styled.footer`
   padding: 20px;
 
   background-color: #191919;
-  border-top: 2px solid #eaa721;
+
 
   // height: 75px;
 
@@ -87,7 +87,7 @@ const Wrapper = styled.footer`
     gap: 20px;
   }
   //
-
+ 
   text-align: center;
 
   .form {

@@ -96,7 +96,6 @@ const Wrapper = styled.div`
 
   overflow: hidden;
 
-  border-top: 2px solid #eaa721;
   border-bottom: 2px solid #eaa721;
 
   padding: 20px;
