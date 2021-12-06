@@ -11,7 +11,7 @@ const InfoTwo = () => {
       {/* <Background/> */}
       <div className="back">
         <div className="text-center">
-          <img className="width-50" src="https://i.postimg.cc/PfMm94FD/logo.png"/>
+          <img className="width-50" src="https://ammedodi.sirv.com/Images/flinch-movie-logo-300x107.png"/>
         </div>    
      
         <p className="info-header">SPECS</p>

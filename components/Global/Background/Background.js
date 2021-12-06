@@ -30,7 +30,7 @@ const Wrapper = styled.div`
     `
       : `
     background: #ffffff
-    url("https://www.flinchthemovie.com/wp-content/uploads/2020/12/flinch-background.jpg")
+    url("https://ammedodi.sirv.com/Images/flinch-background.jpg")
     top left fixed;
 
 
