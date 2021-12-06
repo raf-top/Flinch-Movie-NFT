@@ -26,7 +26,7 @@ const InfoFour = () => {
         <p className="header">Merchandise</p>
 
         <p className="info">
-          Get your Flinch merch today. 100 free NFT download cards randomly sent with merchandise to customers. Merch profits reward Flinch NFT holders.
+        100 NFTs will be airdropped to random merchandise customers. Merch sales reward Flinch NFT holders.
         </p>
 
         <div className="links">        
