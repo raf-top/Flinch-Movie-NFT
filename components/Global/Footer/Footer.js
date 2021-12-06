@@ -43,7 +43,7 @@ const Footer = () => {
         </a>
         <a href="https://discord.gg/4kXCGGSu" target="_blank" rel="noreferrer">
           <img
-            src="https://cdn.discordapp.com/attachments/916423204459933767/916771439917547602/discord-icon.svg"
+            src="https://andymanh.sirv.com/Images/discord-icon.svg"
             alt=""
             className="icon"
           />

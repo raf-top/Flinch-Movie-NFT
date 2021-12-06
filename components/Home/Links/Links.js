@@ -21,9 +21,9 @@ const InfoFour = () => {
 
   return (
     <Wrapper>
-
+      <Background />
       <div className="content">
-        <p className="header">The Links</p>
+        <p className="header">Merchandise</p>
 
         <p className="info">
           Get your Flinch merch today. 100 free NFT download cards randomly sent with merchandise to customers. Merch profits reward Flinch NFT holders.
@@ -31,13 +31,13 @@ const InfoFour = () => {
 
         <div className="links">        
           <Link href="https:flinchthemovie.com/product/flinch-vhs">
-            <img src="https://andymanh.sirv.com/VHS%20cassette%20approved.jpg" width="250px" />
+            <img src="https://andymanh.sirv.com/VHS.png" width="300px" />
           </Link>
           <Link href="https:flinchthemovie.com/product/flinch-vinyl">
-            <img src="https://andymanh.sirv.com/vinyl-record%2011%201%2021.jpg" width="250px" />
+            <img src="https://andymanh.sirv.com/vinyl.png" width="300px" />
           </Link>
           <Link href="https:flinchthemovie.com/product/flinch-cassette">
-            <img src="https://andymanh.sirv.com/Yellow%20Cassette%20case%20%26%20tape%20approved.jpg" width="250px" />
+            <img src="https://andymanh.sirv.com/cassette.png" width="300px"/>
           </Link>
         </div>
       </div>
@@ -109,9 +109,7 @@ const Wrapper = styled.div`
         &:hover {
           cursor: pointer
         }
-      }
-
-      
+      }      
     }    
   }
 `;
