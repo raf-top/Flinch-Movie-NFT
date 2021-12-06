@@ -11,7 +11,7 @@ import Roadmap from "./Roadmap/Roadmap";
 import Team from "./Team/Team";
 import Footer from "../Global/Footer/Footer";
 import InfoFour from "./InfoFour/InfoFour";
-
+import Links from "./Links/Links";
 const Home = () => {
   return (
     <Wrapper>
@@ -29,6 +29,7 @@ const Home = () => {
       {/* <InfoThree /> */}
       <Roadmap />
       <Team />
+      <Links />
       <Footer />
     </Wrapper>
   );
