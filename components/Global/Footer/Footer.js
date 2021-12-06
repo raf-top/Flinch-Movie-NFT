@@ -28,20 +28,20 @@ const Footer = () => {
 
       <div className="socials">
         <a
-          href="https://www.instagram.com/ardorpictures/"
+          href=" https://www.instagram.com/flinchmovie/"
           target="_blank"
           rel="noreferrer"
         >
           <InstagramIcon className="icon" />
         </a>
         <a
-          href="https://www.facebook.com/ardorpictures"
+          href=" https://www.facebook.com/flinchmovie"
           target="_blank"
           rel="noreferrer"
         >
           <FacebookIcon className="icon" />
         </a>
-        <a href="https://discord.gg/4kXCGGSu" target="_blank" rel="noreferrer">
+        <a href="https://discord.gg/VKB4xMQdG8" target="_blank" rel="noreferrer">
           <img
             src="https://andymanh.sirv.com/Images/discord-icon.svg"
             alt=""

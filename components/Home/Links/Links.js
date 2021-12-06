@@ -107,7 +107,8 @@ const Wrapper = styled.div`
 
       img {
         &:hover {
-          cursor: pointer
+          cursor: pointer;
+          transform: scale(1.1)
         }
       }      
     }    

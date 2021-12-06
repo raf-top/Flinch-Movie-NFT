@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Button from "@mui/material/Button";
 
 const joinDiscord = () => {
-  window.open('https://discord.gg/4kXCGGSu', '_blank');
+  window.open('https://discord.gg/VKB4xMQdG8', '_blank');
 }
 const InfoOne = () => {
   return (
