@@ -30,7 +30,7 @@ const Nav = () => {
   return (
     <Wrapper>
       <a href="">
-        <Image
+        <img
           src="https://ammedodi.sirv.com/Images/flinch-movie-logo-300x107.png"
           alt="logo"
           className="logo"
