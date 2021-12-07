@@ -6,7 +6,7 @@ import styled from "styled-components";
 
 // Next
 import Link from "next/link";
-
+import Image from 'next/image'
 // Material UI
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -29,13 +29,13 @@ const Nav = () => {
 
   return (
     <Wrapper>
-      <Link href="/">
-        <img
-          src="https://www.flinchthemovie.com/wp-content/uploads/2020/12/flinch-movie-logo-300x107.png"
-          alt=""
+      <a href="">
+        <Image
+          src="https://ammedodi.sirv.com/Images/flinch-movie-logo-300x107.png"
+          alt="logo"
           className="logo"
         />
-      </Link>
+      </a>
       {!mobileLinks && (
         <MenuIcon className="mobile-menu" onClick={mobileMenuHandler} />
       )}
