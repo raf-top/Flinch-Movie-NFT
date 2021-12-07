@@ -31,13 +31,13 @@ const InfoFour = () => {
 
         <div className="links">        
           <Link href="https:flinchthemovie.com/product/flinch-vhs">
-            <img src="https://andymanh.sirv.com/VHS.png" width="300px" />
+            <img src="https://andymanh.sirv.com/VHS1.png" width="300px" />
           </Link>
           <Link href="https:flinchthemovie.com/product/flinch-vinyl">
-            <img src="https://andymanh.sirv.com/vinyl.png" width="300px" />
+            <img src="https://andymanh.sirv.com/vinyl1.png" width="300px" />
           </Link>
           <Link href="https:flinchthemovie.com/product/flinch-cassette">
-            <img src="https://andymanh.sirv.com/cassette.png" width="300px"/>
+            <img src="https://andymanh.sirv.com/cassette1.png" width="300px"/>
           </Link>
         </div>
       </div>
