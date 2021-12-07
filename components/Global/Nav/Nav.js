@@ -29,13 +29,13 @@ const Nav = () => {
 
   return (
     <Wrapper>
-      <a href="">
+      
         <img
           src="https://ammedodi.sirv.com/Images/flinch-movie-logo-300x107.png"
           alt="logo"
           className="logo"
         />
-      </a>
+      
       {!mobileLinks && (
         <MenuIcon className="mobile-menu" onClick={mobileMenuHandler} />
       )}
