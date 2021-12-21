@@ -70,6 +70,10 @@ body::-webkit-scrollbar-thumb {
   max-height: 100vh; */
 }
 
+.web3modal-modal-lightbox {
+  z-index: 1000000 !important;
+}
+
 /* Global animations */
 @keyframes fade-scale {
   0% {

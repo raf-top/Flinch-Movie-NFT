@@ -2,14 +2,12 @@
 import styled from "styled-components";
 
 // Components
-import Nav from "../Global/Nav/Nav.js";
 import Background from "../Global/Background/Background";
 import Mint from "./Mint/Mint";
 import InfoOne from "./InfoOne/InfoOne";
 import Carousel from "./Carousel/Carousel";
 import Roadmap from "./Roadmap/Roadmap";
 import Team from "./Team/Team";
-import Footer from "../Global/Footer/Footer";
 import InfoFour from "./InfoFour/InfoFour";
 import Links from "./Links/Links";
 const Home = () => {
@@ -17,7 +15,7 @@ const Home = () => {
     <Wrapper>
       {/* <Background /> */}
 
-      <Nav />
+
       <Mint />
 
       <InfoOne />
@@ -30,7 +28,7 @@ const Home = () => {
       <Roadmap />
       <Team />
       <Links />
-      <Footer />
+
     </Wrapper>
   );
 };

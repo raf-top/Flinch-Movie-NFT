@@ -1,9 +1,6 @@
 // React
 import { useRef, useState } from "react";
 
-// Next
-import Link from "next/link";
-
 // Clipboard
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
@@ -26,19 +23,32 @@ const InfoFour = () => {
         <p className="header">Merchandise</p>
 
         <p className="info">
-        100 NFTs will be airdropped to random merchandise customers. Merch sales reward Flinch NFT holders.
+          100 NFTs will be airdropped to random merchandise customers. Merch
+          sales reward Flinch NFT holders.
         </p>
 
-        <div className="links">        
-          <Link href="https:flinchthemovie.com/product/flinch-vhs">
+        <div className="links">
+          <a
+            href="https://www.ardorpictures.com/products/flinch-vhs?variant=40302138687638"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="https://andymanh.sirv.com/VHS1.png" width="300px" />
-          </Link>
-          <Link href="https:flinchthemovie.com/product/flinch-vinyl">
+          </a>
+          <a
+            href="https://www.ardorpictures.com/products/flinch-vinyl"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="https://andymanh.sirv.com/vinyl1.png" width="300px" />
-          </Link>
-          <Link href="https:flinchthemovie.com/product/flinch-cassette">
-            <img src="https://andymanh.sirv.com/cassette1.png" width="300px"/>
-          </Link>
+          </a>
+          <a
+            href="https://www.ardorpictures.com/products/flinch-cassette"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="https://andymanh.sirv.com/cassette1.png" width="300px" />
+          </a>
         </div>
       </div>
     </Wrapper>
@@ -54,7 +64,6 @@ const Wrapper = styled.div`
   position: relative;
   overflow: hidden;
   background: #191919;
-  border-bottom: 2px solid #eaa721;
 
   .content {
     width: 100%;
@@ -106,11 +115,11 @@ const Wrapper = styled.div`
       gap: 25px;
 
       img {
+        transition: all 0.7s;
         &:hover {
-          cursor: pointer;
-          transform: scale(1.1)
+          transform: scale(1.05);
         }
-      }      
-    }    
+      }
+    }
   }
 `;

@@ -1,17 +1,9 @@
 // Styled Components
 import styled from "styled-components";
 
-// Components
-import Nav from "../Global/Nav/Nav";
-import Background from "../Global/Background/Background";
-import Footer from "../Global/Footer/Footer";
-
 const Cinema = () => {
   return (
     <Wrapper>
-      {/* <Background /> */}
-      <Nav />
-
       <div className="content">
         <h1>Welcome to the Cinema</h1>
 
@@ -27,8 +19,6 @@ const Cinema = () => {
           mozallowfullscreen="true"
         ></iframe>
       </div>
-
-      <Footer />
     </Wrapper>
   );
 };

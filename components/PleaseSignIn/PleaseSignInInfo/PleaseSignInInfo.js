@@ -16,7 +16,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import Button from "@mui/material/Button";
 
 const PleaseSignInInfo = () => {
-  const [movieLink, setMovieLink] = useState("https://youtu.be/72N7Uq6wAQ0");
+  const [movieLink, setMovieLink] = useState("https://youtu.be/2_FiedC-bVE");
 
   const userAddress = useSelector((state) => state.user.userAddress);
   const isWhitelisted = useSelector((state) => state.user.isWhitelisted);
@@ -26,20 +26,22 @@ const PleaseSignInInfo = () => {
     <Wrapper>
       <div className="video">
         <p className="info-2">
-        Connect your wallet to watch the movie.<br/> Pay 2 Matic tokens to watch the film and be entered into our whitelist for first access to the NFT mint.
+        Connect your wallet to watch the movie.<br/> Pay 2 Matic tokens to watch the film and be entered into our whitelist for first access to the NFT mint.<br/>        
         </p>
 
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/72N7Uq6wAQ0"
+          src="https://www.youtube.com/embed/2_FiedC-bVE"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
           className="iframe"
         ></iframe>
-
+        <p className="info-2">          
+          5 NFTs will be dropped to random Cinema users throughout the mint. Once you&#39;ve watched the film you&#39;re entered to win.
+        </p>
         <CopyToClipboard text={movieLink}>
           <Button className="copy-button">click to copy sharable link</Button>
         </CopyToClipboard>

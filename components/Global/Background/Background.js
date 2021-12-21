@@ -23,13 +23,13 @@ const Wrapper = styled.div`
   ${(props) =>
     props.variant === "mint"
       ? `
-    background: #ffffff
+    background: black
     url("https://cdn.discordapp.com/attachments/771433993744678972/914135500678393856/unknown.png")
     top left fixed;
 
     `
       : `
-    background: #ffffff
+    background: black
     url("https://ammedodi.sirv.com/Images/flinch-background.jpg")
     top left fixed;
 

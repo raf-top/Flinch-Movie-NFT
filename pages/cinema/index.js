@@ -19,7 +19,7 @@ import SmartContract from "../../ABI/CVHWhitelist.json";
 import Cinema from "../../components/Cinema/Cinema";
 import PleaseSignIn from "../../components/PleaseSignIn/PleaseSignIn";
 
-const SmartContractAddress = "0x513e24574D9C39533B3BC14e6CfB3eBFC2107E86";
+const SmartContractAddress = "0xD4228d3E0219142275866b0Ea434a3E1638889E1";
 
 const Index = () => {
   const dispatch = useDispatch();
@@ -64,7 +64,10 @@ const Index = () => {
       <Fragment>
         <Head>
           <title>Flinch | Cinema</title>
-          <link rel="icon" href="https://ammedodi.sirv.com/Images/neonjesus.png" />
+          <link
+            rel="icon"
+            href="https://ammedodi.sirv.com/Images/neonjesus.png"
+          />
         </Head>
         <Cinema />
       </Fragment>
@@ -74,7 +77,10 @@ const Index = () => {
       <Fragment>
         <Head>
           <title>Flinch | Sign In</title>
-          <link rel="icon" href="https://ammedodi.sirv.com/Images/neonjesus.png" />
+          <link
+            rel="icon"
+            href="https://ammedodi.sirv.com/Images/neonjesus.png"
+          />
         </Head>
         <PleaseSignIn />
       </Fragment>

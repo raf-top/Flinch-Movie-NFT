@@ -58,14 +58,14 @@ const Mint = () => {
 
       <div className="background">
         <img
-          src="https://www.flinchthemovie.com/wp-content/uploads/2020/12/flinch-background.jpg"
+          src="https://ammedodi.sirv.com/Images/flinch-background.jpg"
           alt=""
         />
       </div>
 
       <img
         className="poster"
-        src="https://ammedodi.sirv.com/Images/Revised%20Poster_RemovedText.png"
+        src="https://andymanh.sirv.com/1.png"
         alt=""
       />
 
@@ -152,7 +152,7 @@ const Wrapper = styled.div`
 
     max-height: calc(100vh - 80px);
 
-    z-index: -1;
+    z-index: 1000;
   }
 
   .background {
@@ -180,12 +180,12 @@ const Wrapper = styled.div`
 
       //  margin-top: 80px;
       //
-      width: 100vw;
+      //  width: 100vw;
       @media only screen and (max-width: 1000px) {
-        width: 100vw;
+        //     width: 100vw;
 
-        height: 100%;
-        min-height: 100%;
+        //     height: 100%;
+        //     min-height: 100%;
       }
       //
 

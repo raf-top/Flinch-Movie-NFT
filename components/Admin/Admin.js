@@ -1,17 +1,40 @@
 // Styled Components
 import styled from "styled-components";
 
-import Nav from "../Global/Nav/Nav";
+// Ethers
+import { ethers } from "ethers";
 
-import Footer from "../Global/Footer/Footer";
+// Material UI
+import Button from "@mui/material/Button";
+
+// Contract
+import SmartContract from "../../ABI/CVHWhitelist.json";
+
+const SmartContractAddress = "0xD4228d3E0219142275866b0Ea434a3E1638889E1";
 
 const Admin = () => {
+  const withdraw = async () => {
+    try {
+      const signer = provider.getSigner();
+
+      const contract = new ethers.Contract(
+        SmartContractAddress,
+        SmartContract,
+        signer
+      );
+
+      await contract.withdraw();
+    } catch (err) {
+      alert(err);
+    }
+  };
+
   return (
     <Wrapper>
-      <Nav />
       <p className="header">Admin page</p>
-      <p className="progress">Work in progress</p>
-      <Footer />
+      <Button className="button" onClick={withdraw}>
+        WITHDRAW
+      </Button>
     </Wrapper>
   );
 };

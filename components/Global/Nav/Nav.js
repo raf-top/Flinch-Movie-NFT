@@ -23,19 +23,19 @@ const Nav = () => {
 
   const mobileMenuHandler = () => {
     setMobileLinks((prev) => !prev);
-
+    console.log('-------')
     // document.body.classList.toggle("disable-scrolling");
   };
 
   return (
     <Wrapper>
-      
+      <Link href="/">
         <img
           src="https://ammedodi.sirv.com/Images/flinch-movie-logo-300x107.png"
           alt="logo"
           className="logo"
         />
-      
+      </Link>
       {!mobileLinks && (
         <MenuIcon className="mobile-menu" onClick={mobileMenuHandler} />
       )}

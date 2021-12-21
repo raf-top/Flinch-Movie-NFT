@@ -11,28 +11,36 @@ const InfoTwo = () => {
       {/* <Background/> */}
       <div className="back">
         <div className="text-center">
-          <img className="width-50" src="https://ammedodi.sirv.com/Images/flinch-movie-logo-300x107.png"/>
-        </div>    
-     
+          <img
+            className="width-50"
+            src="https://ammedodi.sirv.com/Images/flinch-movie-logo-300x107.png"
+          />
+        </div>
+
         <p className="info-header">SPECS</p>
 
         <div className="content">
           <div className="sub-wrap">
             <p className="intro">
-              All Flinch NFT holders have access to members only areas, virtual premieres,<br/>
-              collaborations with the filmmakers, value from the cinema and airdrops. 
+              All Flinch NFT holders have access to members only areas, virtual
+              premieres,
+              <br />
+              collaborations with the filmmakers, value from the cinema and
+              airdrops.
             </p>
-            <br/>
+            <br />
             <p className="info text-center-middle">
-              Fanvestors will also get a &quot;kit&quot; complete with social ready assets to spread the word.<br/>
-              There are 2 types of Flinch collectibles, each with fair launch and distribution, some rarer than others.
+              Fanvestors will also get a &quot;kit&quot; complete with social
+              ready assets to spread the word.
+              <br />
+              There are 2 types of Flinch collectibles, each with fair launch
+              and distribution, some rarer than others.
             </p>
-          
-      
-            <InfoTwoItem        
+
+            <InfoTwoItem
               header={"POSTERS:"}
               info_1={
-                "All Poster holders receive standard access to all member perks, airdrops and value from our cinema. Poster skews are 1/3333 and mint for 0.04 ETH. There are 3 skews:"
+                "All Poster holders receive standard access to all member perks, airdrops and value from our cinema. Poster skews are 1/2000 and mint for 0.04 ETH. There are 3 skews:"
               }
               info_2={""}
               item_1_header={"90s Noir"}
@@ -40,10 +48,10 @@ const InfoTwo = () => {
               item_3_header={"Neo Noir"}
               item_1_img={"https://s10.gifyu.com/images/Fish-GIF.gif"}
               item_2_img={"https://ammedodi.sirv.com/Images/gunshot-gif.gif"}
-              item_3_img={"https://s10.gifyu.com/images/Airbrush-GIF.gif"}
+              item_3_img={"https://andymanh.sirv.com/airbrush.gif"}
             />
           </div>
-          
+
           <div className="sub-wrap">
             <InfoTwoItem
               header={"CHARACTERS:"}
@@ -56,15 +64,9 @@ const InfoTwo = () => {
               item_1_header={""}
               item_2_header={""}
               item_3_header={""}
-              item_1_img={
-                "https://ammedodi.sirv.com/Images/Doyle.jpeg"
-              }
-              item_2_img={
-                "https://ammedodi.sirv.com/Images/Mia.jpeg"
-              }
-              item_3_img={
-                "https://ammedodi.sirv.com/Images/James.jpeg"
-              }
+              item_1_img={"https://ammedodi.sirv.com/Images/Doyle.jpeg"}
+              item_2_img={"https://ammedodi.sirv.com/Images/Mia.jpeg"}
+              item_3_img={"https://ammedodi.sirv.com/Images/James.jpeg"}
             />
           </div>
         </div>
@@ -109,7 +111,6 @@ const Wrapper = styled.div`
     @media only screen and (max-width: 825px) {
       padding: 0 20px;
     }
-
   }
 
   .info-header {
@@ -119,15 +120,17 @@ const Wrapper = styled.div`
     font-size: 2rem;
     color: #e02d41;
     z-index: 2;
-    position: relative; 
+    position: relative;
     padding: 20px 70px 0px 70px;
     text-align: center;
   }
 
   .back {
-    background: #ffffff url(https://www.flinchthemovie.com/wp-content/uploads/2020/12/flinch-background.jpg) top left fixed;
+    background: black
+      url(https://ammedodi.sirv.com/Images/flinch-background.jpg) top left fixed;
     padding: 0px;
   }
+
   .text-center {
     margin: 40px auto;
     text-align: center;

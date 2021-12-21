@@ -14,6 +14,7 @@ import styled from "styled-components";
 
 // Material UI
 import Button from "@mui/material/Button";
+import IconButton from "@mui/material/IconButton";
 
 // Web3Modal
 import Web3Modal from "web3modal";
@@ -85,9 +86,10 @@ const NavLinks = () => {
         setConnected(false);
       });
 
-      dispatch(
-        userAcitons.setUserAddress(signer.provider.provider.selectedAddress)
-      );
+      const addy = await signer.getAddress();
+
+      dispatch(userAcitons.setUserAddress(addy));
+
       dispatch(userAcitons.setWeb3modal(web3Modal));
       dispatch(userAcitons.setProvider(provider));
 
@@ -97,11 +99,29 @@ const NavLinks = () => {
 
   return (
     <Wrapper>
-      <Link href="/cinema">Cinema</Link>
-      <Link href="/nft">NFT</Link>
-      <Link href="/#strategy">Strategy</Link>
-      <Link href="/#story">Story</Link>
-      <Link href="/faq">Faq</Link>
+      <Button className="link-button">
+        <Link href="/cinema">Cinema</Link>
+      </Button>
+
+      <Button className="link-button">
+        <Link href="/nft">NFT</Link>
+      </Button>
+
+      <Button className="link-button">
+        <Link href="/#strategy">Strategy</Link>
+      </Button>
+
+      <Button className="link-button">
+        <Link href="/#story">Story</Link>
+      </Button>
+
+      <Button className="link-button">
+        <Link href="https://www.ardorpictures.com/collections/all">Shop</Link>
+      </Button>
+
+      <Button className="link-button">
+        <Link href="/faq">Faq</Link>
+      </Button>
 
       <Button className="connect-button" onClick={handleConnection}>
         {connected ? <p>Disconnect</p> : <p>Connect</p>}
@@ -115,32 +135,50 @@ export default NavLinks;
 const Wrapper = styled.div`
   display: flex;
   align-items: center;
-  gap: 25px;
-
+  gap: 20px;
   a {
     color: #eaa721;
     text-decoration: none;
     font-size: 1.25rem;
-
     text-transform: uppercase;
-
+    cursor: pointer;
     &:hover {
       color: rgba(234, 167, 33, 0.9);
     }
   }
-
+  .link-button {
+    //  width: 150px;
+    color: #eaa721;
+    text-decoration: none;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 75px;
+    &::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: rgb(94, 194, 163);
+      opacity: 1; /* Firefox */
+    }
+    &:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: rgb(94, 194, 163);
+    }
+    &::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: rgb(94, 194, 163);
+    }
+  }
   @media only screen and (max-width: 1275px) {
     display: none;
   }
-
   .connect-button {
-    border: 2px solid #5ec2a3;
+    border: 2px solid rgb(94, 194, 163);
     width: 200px;
     color: #eaa721;
     font-size: 1.25rem;
     border-radius: 0px;
     text-transform: uppercase;
-
+    margin-left: 20px;
     &:hover {
       color: rgba(234, 167, 33, 0.9);
     }

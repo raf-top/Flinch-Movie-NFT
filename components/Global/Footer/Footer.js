@@ -7,7 +7,6 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 
-
 const Footer = () => {
   return (
     <Wrapper>
@@ -41,13 +40,16 @@ const Footer = () => {
         >
           <FacebookIcon className="icon" />
         </a>
-        <a href="https://discord.gg/VKB4xMQdG8" target="_blank" rel="noreferrer">
+        <a
+          href="https://discord.gg/VKB4xMQdG8"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             src="https://andymanh.sirv.com/Images/discord-icon.svg"
             alt=""
             className="icon"
           />
-
         </a>
         <a
           href="https://twitter.com/ArdorPictures"
@@ -64,13 +66,13 @@ const Footer = () => {
 export default Footer;
 
 const Wrapper = styled.footer`
-  
   padding: 20px;
 
   background-color: #191919;
 
-
   // height: 75px;
+
+  border-top: 2px solid #eaa721;
 
   position: relative;
 
@@ -87,7 +89,7 @@ const Wrapper = styled.footer`
     gap: 20px;
   }
   //
- 
+
   text-align: center;
 
   .form {

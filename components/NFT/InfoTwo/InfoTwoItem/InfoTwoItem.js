@@ -145,7 +145,7 @@ const Wrapper = styled.div`
         border: solid 0px transparent;
 
         &:hover {
-          transform: scale(1.025);
+          transform: scale(1.05);
         }
       }
     }

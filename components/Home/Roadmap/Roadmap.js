@@ -25,7 +25,7 @@ const Roadmap = () => {
             img={"https://ammedodi.sirv.com/Images/church.png"}
             title={"10"}
             pros="%"
-            info={`Pay back the loan shark before we get our legs broken.`}
+            info={`Airdrop 1 ETH to 10 Poster NFT Holders.`}
           />
 
           <RoadmapItem
@@ -59,7 +59,7 @@ const Roadmap = () => {
             title={"80"}
             pros="%"
             info={`
-            Establish three funds. One for marketing, one for development, one for buying back the least expensive Flinch  NFTs. Each fund will be allocated 10% from profits.`}
+            Establish three funds. One for marketing, one for development, one for buying back the least expensive Flinch  NFTs. Each fund will be allocated 5% from profits.`}
           />
 
           <RoadmapItem
