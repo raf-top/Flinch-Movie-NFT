@@ -123,6 +123,10 @@ const NavLinks = () => {
         <Link href="/faq">Faq</Link>
       </Button>
 
+      <Button className="link-button">
+        <Link href="/mint">Mint</Link>
+      </Button>
+
       <Button className="connect-button" onClick={handleConnection}>
         {connected ? <p>Disconnect</p> : <p>Connect</p>}
       </Button>
