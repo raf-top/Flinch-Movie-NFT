@@ -20,8 +20,11 @@ import IconButton from "@mui/material/IconButton";
 import Web3Modal from "web3modal";
 import WalletConnectProvider from "@walletconnect/web3-provider";
 
+// import  { Mint}  from "../../../Mint/Mint";
+
 // Ethers
 import { ethers } from "ethers";
+// import ConnectToWalletConnect from "web3modal/dist/providers/connectors/walletconnect";
 
 const NavLinks = () => {
   const [connected, setConnected] = useState(false);
@@ -36,6 +39,7 @@ const NavLinks = () => {
   }, []);
 
   const handleConnection = async () => {
+
     const providerOptions = {
       walletconnect: {
         package: WalletConnectProvider, // required
@@ -97,6 +101,18 @@ const NavLinks = () => {
     }
   };
 
+  const handleMintBtn = () => {
+    if (typeof window !== "undefined") {
+      if (window.location.pathname.includes("mint")) {
+        return;
+      } else { 
+        return <Button className="connect-button" onClick={handleConnection}>
+                {connected ? <p>Disconnect</p> : <p>Connect</p>}
+              </Button>;
+      }
+    }     
+  }
+  
   return (
     <Wrapper>
       <Button className="link-button">
@@ -126,10 +142,8 @@ const NavLinks = () => {
       <Button className="link-button">
         <Link href="/mint">Mint</Link>
       </Button>
-
-      <Button className="connect-button" onClick={handleConnection}>
-        {connected ? <p>Disconnect</p> : <p>Connect</p>}
-      </Button>
+      { handleMintBtn() }
+     
     </Wrapper>
   );
 };
