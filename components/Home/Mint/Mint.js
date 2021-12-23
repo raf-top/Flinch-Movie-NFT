@@ -164,7 +164,7 @@ const Wrapper = styled.div`
       //   top: -90%;
 
       left: 0;
-
+      width: 100vw;
       height: calc(100vh - 80px);
       min-height: calc(100vh - 80px);
 

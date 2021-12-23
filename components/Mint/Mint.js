@@ -328,12 +328,12 @@ console.log("chainID______", currAccount)
         <div className="mint-image">
           <img src="https://andymanh.sirv.com/mint_back_v2.png" width="700px"/>
           {/* <input type="number" className="mint-count" placeholder="1" /> */}
-          {DEPLOYED_CHAINS.includes(chainId) ? (
+          {/* {DEPLOYED_CHAINS.includes(chainId) ? (
               <div className="">
                   <label className="t-amount nft-num"><span className="nft-main">{currMintCount} / {maxMintCount}</span> <span className="nft-content">Flinchs have been minted!</span>
                   </label>
               </div>
-          ) : null}
+          ) : null} */}
            <div className="btn-group">
               <button 
                 className="minus-btn" 
@@ -409,6 +409,8 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url('https://andymanh.sirv.com/TV_back.jpg') no-repeat;
+    background-size: cover;
   }
   .mint-count {
     position: absolute;

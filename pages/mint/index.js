@@ -2,7 +2,7 @@
 import { Fragment } from "react";
 
 // Next
-// import Head from "next/head";
+import Head from "next/head";
 
 // Components
 import Mint from "../../components/Mint/Mint";
@@ -10,13 +10,13 @@ import Mint from "../../components/Mint/Mint";
 const Index = () => {
   return (
     <Fragment>
-      {/* <Head>
+      <Head>
         <title>Flinch | Mint</title>
         <link
           rel="icon"
           href="https://ammedodi.sirv.com/Images/neonjesus.png"
         />
-      </Head> */}
+      </Head>
       <Mint />
     </Fragment>
   );
