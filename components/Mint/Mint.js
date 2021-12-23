@@ -326,7 +326,7 @@ console.log("chainID______", currAccount)
       </a>
       <div className="mint-section">
         <div className="mint-image">
-          <img src="https://andymanh.sirv.com/mint_back.png" width="700px"/>
+          <img src="https://andymanh.sirv.com/mint_back_v2.png" width="700px"/>
           {/* <input type="number" className="mint-count" placeholder="1" /> */}
           {DEPLOYED_CHAINS.includes(chainId) ? (
               <div className="">
