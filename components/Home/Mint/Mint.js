@@ -63,11 +63,7 @@ const Mint = () => {
         />
       </div>
 
-      <img
-        className="poster"
-        src="https://andymanh.sirv.com/1.png"
-        alt=""
-      />
+      <img className="poster" src="https://andymanh.sirv.com/1.png" alt="" />
 
       {/* <div className="mint">
         <ButtonGroup size="small" className="amount-wrapper">
@@ -149,9 +145,6 @@ const Wrapper = styled.div`
     left: 0;
 
     width: 100vw;
-
-    max-height: calc(100vh - 80px);
-
     z-index: 1000;
   }
 

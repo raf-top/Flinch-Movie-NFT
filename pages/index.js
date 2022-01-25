@@ -12,7 +12,10 @@ const Index = () => {
     <Fragment>
       <Head>
         <title>Flinch | Home</title>
-        <link rel="icon" href="https://ammedodi.sirv.com/Images/neonjesus.png" />
+        <link
+          rel="icon"
+          href="https://ammedodi.sirv.com/Images/neonjesus.png"
+        />
       </Head>
       <Home />
     </Fragment>

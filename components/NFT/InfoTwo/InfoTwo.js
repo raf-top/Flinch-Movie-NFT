@@ -128,6 +128,7 @@ const Wrapper = styled.div`
   .back {
     background: black
       url(https://ammedodi.sirv.com/Images/flinch-background.jpg) top left fixed;
+
     padding: 0px;
   }
 
