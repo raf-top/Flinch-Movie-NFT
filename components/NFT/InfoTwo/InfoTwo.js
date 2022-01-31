@@ -32,7 +32,9 @@ const InfoTwo = () => {
 
           <div className="sub-wrap">
             <InfoTwoItem
-              header={"Crooked Cops &nbsp;&nbsp; Criminals Femme &nbsp;&nbsp; Fatales"}              
+              header1={"Crooked Cops"}              
+              header2={"Criminals FemmeFatales"}    
+              header3={"Fatales"}    
               info_1={
                 "There are 9999 Crooked Cops, Criminals and Femme Fatales waiting to be unleashed onto the blockchain. Some characters appear in part 1 of the Flinch franchise. Others will appear in future films, spinoffs and games. Mint will commence once our whitelist hits 5555."
               }
