@@ -32,14 +32,8 @@ const InfoTwo = () => {
 
           <div className="sub-wrap">
             <InfoTwoItem
-              header={"Crooked Cops   Criminals Femme   Fatales"}
+              header={"Crooked Cops &nbsp;&nbsp; Criminals Femme &nbsp;&nbsp; Fatales"}              
               info_1={
-                "All Character holders will enjoy ownership over their character in the Metaverse and in future games. Some of the characters appear in part 1 of the movie franchise. Others will appear in future films and games. In addition to standard membership perks, Flinch Character holders will have voting rights over various creative decisions about the story line of the Flinch universe."
-              }
-              info_2={
-                "The more characters you own, the more say you have in development. Character holders will also receive free merch and invites to in person movie premieres, screenings and after parties. Poster holders get first dib on Character NFT mint.  Drops once 20% of Posters are minted."
-              }
-              info_3={
                 "There are 9999 Crooked Cops, Criminals and Femme Fatales waiting to be unleashed onto the blockchain. Some characters appear in part 1 of the Flinch franchise. Others will appear in future films, spinoffs and games. Mint will commence once our whitelist hits 5555."
               }
               item_1_header={""}

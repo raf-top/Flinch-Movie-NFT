@@ -9,10 +9,6 @@ const InfoTwoItem = (props) => {
       <div className="content">
         <div className="info">
           <p>{props.info_1}</p>
-
-          <p>{props.info_2}</p>
-
-          <p>{props.info_3}</p>
         </div>
 
         <div className="items">
