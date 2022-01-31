@@ -22,7 +22,7 @@ const Roadmap = () => {
         <div className="items">
           <RoadmapItem
             align={"left"}
-            img={"https://ammedodi.sirv.com/Images/church.png"}
+            img={"images/church.png"}
             title={"10"}
             pros="%"
             info={`Airdrop 1 ETH to 10 Poster NFT Holders.`}
@@ -30,7 +30,7 @@ const Roadmap = () => {
 
           <RoadmapItem
             align={"right"}
-            img={"https://ammedodi.sirv.com/Images/doyle.png"}
+            img={"images/doyle_glass.jpg"}
             title={"20"}
             pros="%"
             info={`Open the mint for Character NFTs. Airdrop 10 for free to random Poster NFT holders.`}
@@ -38,7 +38,7 @@ const Roadmap = () => {
 
           <RoadmapItem
             align={"left"}
-            img={"https://ammedodi.sirv.com/Images/ED.png"}
+            img={"images/ED.png"}
             title={"40"}
             pros="%"
             info={`2 billboards in major cities will be rented to promote Flinch. Holders vote on where.`}
@@ -46,7 +46,7 @@ const Roadmap = () => {
 
           <RoadmapItem
             align={"right"}
-            img={"https://ammedodi.sirv.com/Images/fire.png"}
+            img={"images/fire.png"}
             title={"60"}
             pros="%"
             info={`Distribute $20k worth of ETH via airdrop to 10 random Flinch holders.
@@ -55,7 +55,7 @@ const Roadmap = () => {
 
           <RoadmapItem
             align={"left"}
-            img={"https://ammedodi.sirv.com/Images/fish.png"}
+            img={"images/fish.png"}
             title={"80"}
             pros="%"
             info={`
@@ -64,7 +64,7 @@ const Roadmap = () => {
 
           <RoadmapItem
             align={"right"}
-            img={"https://ammedodi.sirv.com/Images/gloria.png"}
+            img={"images/gloria.png"}
             title={"100"}
             pros="%"
             info={`
@@ -73,7 +73,7 @@ const Roadmap = () => {
 
           <RoadmapItem
             align={"left"}
-            img={"https://ammedodi.sirv.com/Images/neonjesus.png"}
+            img={"images/neonjesus.png"}
             title={"Post Launch"}
             pros=""
             info={`

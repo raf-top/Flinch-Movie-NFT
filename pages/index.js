@@ -13,8 +13,8 @@ const Index = () => {
       <Head>
         <title>Flinch | Home</title>
         <link
-          rel="icon"
-          href="https://ammedodi.sirv.com/Images/neonjesus.png"
+          rel="shortcut icon"
+          href="images/logo.png"
         />
       </Head>
       <Home />

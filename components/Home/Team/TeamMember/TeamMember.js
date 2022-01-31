@@ -37,7 +37,7 @@ const TeamMember = (props) => {
           {props.tiktok && (
             <a href={props.tiktok} target="_blank" rel="noreferrer">
               <img
-                src="https://ammedodi.sirv.com/Images/tiktok-icon.svg"
+                src="images/tiktok.png"
                 alt=""
                 className="icon tiktok"
               />
@@ -55,6 +55,7 @@ const Wrapper = styled.div`
   padding: 15px;
 
   img {
+    border-radius: 50%;
     height: 80%;
     width: 200px;
   }
@@ -73,7 +74,6 @@ const Wrapper = styled.div`
   background-color: #191919;
 
   .info-wrapper {
-    width: 100%;
     padding: 0 20px;
 
     display: flex;

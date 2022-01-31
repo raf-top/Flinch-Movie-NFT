@@ -66,7 +66,7 @@ const Index = () => {
           <title>Flinch | Cinema</title>
           <link
             rel="icon"
-            href="https://ammedodi.sirv.com/Images/neonjesus.png"
+            href="images/neonjesus.png"
           />
         </Head>
         <Cinema />
@@ -79,7 +79,7 @@ const Index = () => {
           <title>Flinch | Sign In</title>
           <link
             rel="icon"
-            href="https://ammedodi.sirv.com/Images/neonjesus.png"
+            href="images/neonjesus.png"
           />
         </Head>
         <PleaseSignIn />

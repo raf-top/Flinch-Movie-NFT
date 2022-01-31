@@ -11,7 +11,7 @@ const Team = () => {
 
       <div className="team">
         <TeamMember
-          img={"https://ammedodi.sirv.com/Images/Doyle.jpeg"}
+          img={"images/doyle.png"}
           header={"Writer & Director"}
           info={"Cameron Van Hoy"}
           instagram={"https://www.instagram.com/cameronvanhoy/"}
@@ -19,7 +19,7 @@ const Team = () => {
           twitter={"https://twitter.com/CameronVanHoy"}
         />
         <TeamMember
-          img={"https://ammedodi.sirv.com/Images/Mia.jpeg"}
+          img={"images/mia.png"}
           header={"Characters by"}
           info={"@sveta_has"}
           instagram={"https://www.instagram.com/sveta_has/"}
@@ -28,7 +28,7 @@ const Team = () => {
           tiktok={"https://www.tiktok.com/@sveta_has?lang=en"}
         />     
         <TeamMember
-          img={"https://ammedodi.sirv.com/Images/James.jpeg"}
+          img={"images/james.png"}
           header={"Developer"}
           info={"Iceyy"}
         />

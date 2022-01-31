@@ -28,7 +28,7 @@ const Home = () => {
       <Roadmap />
       <Team />
       <Links />
-
+      
     </Wrapper>
   );
 };

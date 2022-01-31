@@ -53,7 +53,7 @@ const data = {
         <li>When you watch Flinch in the Cinema you are added to the whitelist. Post-mint all Cinema visitors will be eligible for
         random airdrops of Poster and Character NFTs and much more. Going to the movies is the gift that keeps giving.</li><br/>
         <li>Currently Matic is the best payment solution for the cinema. We're working on other chain and coin payment solutions to broaden our reach.</li><br/>
-        <li>If you pay to watch, you will be able to watch any time your wallet is connected to the Cinema,</li><br/></ul>`,
+        <li>If you pay to watch, you will be able to watch any time your wallet is connected to the Cinema.</li><br/></ul>`,
     },
   ],
 };

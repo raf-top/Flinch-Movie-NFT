@@ -14,7 +14,7 @@ const Index = () => {
         <title>Flinch | Faq</title>
         <link
           rel="icon"
-          href="https://ammedodi.sirv.com/Images/neonjesus.png"
+          href="images/neonjesus.png"
         />
       </Head>
       <Faq />

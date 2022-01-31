@@ -22,7 +22,7 @@ const Index = () => {
       <Fragment>
         <Head>
           <title>Flinch | Members</title>
-          <link rel="icon" href="https://ammedodi.sirv.com/Images/neonjesus.png" />
+          <link rel="icon" href="images/neonjesus.png" />
         </Head>
         <Members />
       </Fragment>
@@ -32,7 +32,7 @@ const Index = () => {
       <Fragment>
         <Head>
           <title>Flinch | Members</title>
-          <link rel="icon" href="./static/images/neonjesus.png" />
+          <link rel="icon" href="images/neonjesus.png" />
         </Head>
         <PleaseSignIn />
       </Fragment>

@@ -33,21 +33,21 @@ const InfoFour = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="https://andymanh.sirv.com/VHS1.png" width="300px" />
+            <img src="images/VHS1.png" width="300px" />
           </a>
           <a
             href="https://www.ardorpictures.com/products/flinch-vinyl"
             target="_blank"
             rel="noreferrer"
           >
-            <img src="https://andymanh.sirv.com/vinyl1.png" width="300px" />
+            <img src="images/vinyl1.png" width="300px" />
           </a>
           <a
             href="https://www.ardorpictures.com/products/flinch-cassette"
             target="_blank"
             rel="noreferrer"
           >
-            <img src="https://andymanh.sirv.com/cassette1.png" width="300px" />
+            <img src="images/cassette1.png" width="300px" />
           </a>
         </div>
       </div>

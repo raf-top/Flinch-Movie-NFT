@@ -55,61 +55,61 @@ const Carousel = () => {
     <Wrapper {...settings}>
       <div className="slide-1">
         <img
-          src="https://ammedodi.sirv.com/Images/Doyle.jpeg"
+          src="images/doyle.png"
           alt=""
         />
       </div>
       <div className="slide-2">
         <img
-          src="https://ammedodi.sirv.com/Images/Mia.jpeg"
+          src="images/mia.png"
           alt=""
         />
       </div>
       <div className="slide-3">
         <img
-          src="https://ammedodi.sirv.com/Images/James.jpeg"
+          src="images/james.png"
           alt=""
         />
       </div>
       <div className="slide-4">
         <img
-          src="https://ammedodi.sirv.com/Images/Lee.jpeg"
+          src="images/lee.png"
           alt=""
         />
       </div>
       <div className="slide-5">
         <img
-          src="https://ammedodi.sirv.com/Images/Gloria.jpeg"
+          src="images/gloria.png"
           alt=""
         />
       </div>
       <div className="slide-6">
         <img
-          src="https://ammedodi.sirv.com/Images/Doyle.jpeg"
+          src="images/doyle.png"
           alt=""
         />
       </div>
       <div className="slide-7">
         <img
-          src="https://ammedodi.sirv.com/Images/Mia.jpeg"
+          src="images/mia.png"
           alt=""
         />
       </div>
       <div className="slide-8">
         <img
-          src="https://ammedodi.sirv.com/Images/James.jpeg"
+          src="images/james.png"
           alt=""
         />
       </div>
       <div className="slide-9">
         <img
-          src="https://ammedodi.sirv.com/Images/Lee.jpeg"
+          src="images/lee.png"
           alt=""
         />
       </div>
       <div className="slide-10">
         <img
-          src="https://ammedodi.sirv.com/Images/Gloria.jpeg"
+          src="images/gloria.png"
           alt=""
         />
       </div>

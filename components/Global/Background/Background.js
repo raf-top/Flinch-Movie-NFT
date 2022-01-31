@@ -30,7 +30,7 @@ const Wrapper = styled.div`
     `
       : `
     background: black
-    url("https://ammedodi.sirv.com/Images/flinch-background.jpg")
+    url("images/background.png")
     top left fixed;
 
 

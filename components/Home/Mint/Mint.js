@@ -58,12 +58,16 @@ const Mint = () => {
 
       <div className="background">
         <img
-          src="https://ammedodi.sirv.com/Images/flinch-background.jpg"
+          src="images/background.png"
           alt=""
         />
       </div>
 
-      <img className="poster" src="https://andymanh.sirv.com/1.png" alt="" />
+      <img
+        className="poster"
+        src="images/illustrated.jpeg"
+        alt=""
+      />
 
       {/* <div className="mint">
         <ButtonGroup size="small" className="amount-wrapper">
@@ -102,7 +106,7 @@ const Mint = () => {
         </a>
         <a href="https://discord.gg/wKWpHDZM" target="_blank" rel="noreferrer">
           <img
-            src="https://ammedodi.sirv.com/Images/discord-icon.svg"
+            src="images/discord-icon.svg"
             alt=""
             className="icon"
           />

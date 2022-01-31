@@ -13,7 +13,7 @@ const InfoTwo = () => {
         <div className="text-center">
           <img
             className="width-50"
-            src="https://ammedodi.sirv.com/Images/flinch-movie-logo-300x107.png"
+            src="images/flinch_logo.png"
           />
         </div>
 
@@ -47,8 +47,8 @@ const InfoTwo = () => {
               item_2_header={"Noir"}
               item_3_header={"Neo Noir"}
               item_1_img={"https://s10.gifyu.com/images/Fish-GIF.gif"}
-              item_2_img={"https://ammedodi.sirv.com/Images/gunshot-gif.gif"}
-              item_3_img={"https://andymanh.sirv.com/airbrush.gif"}
+              item_2_img={"images/gunshot-gif.gif"}
+              item_3_img={"images/airbrush.gif"}
             />
           </div>
 
@@ -64,9 +64,9 @@ const InfoTwo = () => {
               item_1_header={""}
               item_2_header={""}
               item_3_header={""}
-              item_1_img={"https://ammedodi.sirv.com/Images/Doyle.jpeg"}
-              item_2_img={"https://ammedodi.sirv.com/Images/Mia.jpeg"}
-              item_3_img={"https://ammedodi.sirv.com/Images/James.jpeg"}
+              item_1_img={"images/doyle.png"}
+              item_2_img={"images/mia.png"}
+              item_3_img={"images/james.png"}
             />
           </div>
         </div>
@@ -127,7 +127,7 @@ const Wrapper = styled.div`
 
   .back {
     background: black
-      url(https://ammedodi.sirv.com/Images/flinch-background.jpg) top left fixed;
+      url(images/flinch-background.png) top left fixed;
 
     padding: 0px;
   }

@@ -16,11 +16,11 @@ const Footer = () => {
       </div> */}
 
       <div className="copyright">
-        <img
+        {/* <img
           src="https://media.discordapp.net/attachments/903747551688294461/913107897095958619/Ardor_Logo_White.png?width=600&height=600"
           alt=""
           className="logo"
-        />
+        /> */}
 
         <p>Copyright © Ardor Pictures 2021</p>
       </div>
@@ -46,7 +46,7 @@ const Footer = () => {
           rel="noreferrer"
         >
           <img
-            src="https://andymanh.sirv.com/Images/discord-icon.svg"
+            src="images/discord-icon.svg"
             alt=""
             className="icon"
           />

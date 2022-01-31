@@ -32,7 +32,7 @@ const InfoOne = () => {
         </div>
 
         <img
-          src="https://andymanh.sirv.com/characters.gif"
+          src="images/characters.gif"
           alt=""
           className="video"
         />
