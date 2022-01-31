@@ -4,7 +4,7 @@ import styled from "styled-components";
 const InfoTwoItem = (props) => {
   return (
     <Wrapper itemsSpaceEvenly={props.space_evenly}>
-      <p className="header">{props.header1}&nbsp;&nbsp;{props.header2}&nbsp;&nbsp;{props.header3}</p>
+      <p className="header">{props.header1}&nbsp;&nbsp;&nbsp;{props.header2}&nbsp;&nbsp;&nbsp;{props.header3}</p>
 
       <div className="content">
         <div className="info">
