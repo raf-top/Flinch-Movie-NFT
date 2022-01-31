@@ -11,6 +11,8 @@ const InfoTwoItem = (props) => {
           <p>{props.info_1}</p>
 
           <p>{props.info_2}</p>
+
+          <p>{props.info_3}</p>
         </div>
 
         <div className="items">
@@ -85,6 +87,7 @@ const Wrapper = styled.div`
     font-style: normal;
     font-size: 1.5rem;
     color: #eaa721;
+    text-align: center;
   }
 
   .content {
