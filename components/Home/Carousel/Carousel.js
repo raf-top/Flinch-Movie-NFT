@@ -79,7 +79,7 @@ const Carousel = () => {
       </div>
       <div className="slide-5">
         <img
-          src="images/gloria.png"
+          src="images/Gloria.jpeg"
           alt=""
         />
       </div>
@@ -109,7 +109,7 @@ const Carousel = () => {
       </div>
       <div className="slide-10">
         <img
-          src="images/gloria.png"
+          src="images/Gloria.jpeg"
           alt=""
         />
       </div>

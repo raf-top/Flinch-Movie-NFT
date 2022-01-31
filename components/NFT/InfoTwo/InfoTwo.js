@@ -23,38 +23,16 @@ const InfoTwo = () => {
           <div className="sub-wrap">
             <p className="intro">
               All Flinch NFT holders have access to members only areas, virtual
-              premieres,
+              and in person premieres, afterparties,
               <br />
               collaborations with the filmmakers, value from the cinema and
               airdrops.
-            </p>
-            <br />
-            <p className="info text-center-middle">
-              Fanvestors will also get a &quot;kit&quot; complete with social
-              ready assets to spread the word.
-              <br />
-              There are 2 types of Flinch collectibles, each with fair launch
-              and distribution, some rarer than others.
-            </p>
-
-            <InfoTwoItem
-              header={"POSTERS:"}
-              info_1={
-                "All Poster holders receive standard access to all member perks, airdrops and value from our cinema. Poster skews are 1/2000 and mint for 0.04 ETH. There are 3 skews:"
-              }
-              info_2={""}
-              item_1_header={"90s Noir"}
-              item_2_header={"Noir"}
-              item_3_header={"Neo Noir"}
-              item_1_img={"https://s10.gifyu.com/images/Fish-GIF.gif"}
-              item_2_img={"images/gunshot-gif.gif"}
-              item_3_img={"images/airbrush.gif"}
-            />
+            </p>                                
           </div>
 
           <div className="sub-wrap">
             <InfoTwoItem
-              header={"CHARACTERS:"}
+              header={"Crooked Cops Criminals Femme Fatales:"}
               info_1={
                 "All Character holders will enjoy ownership over their character in the Metaverse and in future games. Some of the characters appear in part 1 of the movie franchise. Others will appear in future films and games. In addition to standard membership perks, Flinch Character holders will have voting rights over various creative decisions about the story line of the Flinch universe."
               }
