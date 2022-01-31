@@ -46,7 +46,7 @@ const InfoFour = () => {
           ></iframe>
 
           <Link href="/cinema">
-            <Button className="copy-button">Visit the Cinema</Button>
+            <Button className="copy-button">Watch Now</Button>
           </Link>
         </div>
       </div>

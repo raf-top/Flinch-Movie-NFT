@@ -25,7 +25,7 @@ const Roadmap = () => {
             img={"images/church.png"}
             title={"10"}
             pros="%"
-            info={`Airdrop 1 ETH to 10 Poster NFT Holders.`}
+            info={`First 10% of minters receive free signed Flinch Poster.`}
           />
 
           <RoadmapItem
@@ -33,7 +33,7 @@ const Roadmap = () => {
             img={"images/doyle_glass.jpg"}
             title={"20"}
             pros="%"
-            info={`Open the mint for Character NFTs. Airdrop 10 for free to random Poster NFT holders.`}
+            info={`Airdrop 10 NFTs to random holders.`}
           />
 
           <RoadmapItem

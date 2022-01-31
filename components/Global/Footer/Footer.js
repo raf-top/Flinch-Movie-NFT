@@ -22,7 +22,7 @@ const Footer = () => {
           className="logo"
         /> */}
 
-        <p>Copyright © Ardor Pictures 2021</p>
+        <p>Copyright © Ardor Pictures 2022</p>
       </div>
 
       <div className="socials">

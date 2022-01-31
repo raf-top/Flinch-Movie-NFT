@@ -32,7 +32,7 @@ const InfoTwo = () => {
 
           <div className="sub-wrap">
             <InfoTwoItem
-              header={"Crooked Cops Criminals Femme Fatales"}
+              header={"Crooked Cops   Criminals Femme   Fatales"}
               info_1={
                 "All Character holders will enjoy ownership over their character in the Metaverse and in future games. Some of the characters appear in part 1 of the movie franchise. Others will appear in future films and games. In addition to standard membership perks, Flinch Character holders will have voting rights over various creative decisions about the story line of the Flinch universe."
               }
