@@ -52,6 +52,9 @@ const RoadmapItem = (props) => {
 export default RoadmapItem;
 
 const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 150px;
   @media only screen and (max-width: 580px) {
     width: 100%;
@@ -92,10 +95,6 @@ const Wrapper = styled.div`
       width: 100%;
     }
     //
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
     position: relative;
     //
