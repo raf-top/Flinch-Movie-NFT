@@ -49,8 +49,7 @@ const Roadmap = () => {
             img={"images/fire.png"}
             title={"60"}
             pros="%"
-            info={`Distribute $20k worth of ETH via airdrop to 10 random Flinch holders.
-            `}
+            info={`Host IRL Premieres and afterparties of Flinch in NYC and LA for NFT holders. Exclusive virtual stream for any holders who can't attend.`}
           />
 
           <RoadmapItem
@@ -59,7 +58,8 @@ const Roadmap = () => {
             title={"80"}
             pros="%"
             info={`
-            Establish three funds. One for marketing, one for development, one for buying back the least expensive Flinch  NFTs. Each fund will be allocated 5% from profits.`}
+            Establish three funds. One for marketing, one for development, one for buying back the least expensive Flinch  NFTs. Each fund will be allocated 5% from profits.
+            `}
           />
 
           <RoadmapItem
@@ -68,7 +68,7 @@ const Roadmap = () => {
             title={"100"}
             pros="%"
             info={`
-            Begin making the second film in the franchise. Once part two is released, new Poster NFTs will drop. All current Flinch NFT holders will be airdropped companion Poster NFTs for part two.`}
+            Begin making the second film in the franchise. We will establish the governance work flow and hire community members for specific roles in the production.`}
           />
 
           <RoadmapItem
@@ -77,7 +77,7 @@ const Roadmap = () => {
             title={"Post Launch"}
             pros=""
             info={`
-            How epic a crime franchise can we build? The Metaverse is the limit. Our film will play in our cinema, our cinema rewards our NFT holders monthly. Airdrops might be via layer 2 or via NFT re-purchase until layer 2 workflow is established. Virtual cinemas will be built in the Metaverse that you and your friends can attend together.`}
+            How epic a crime franchise can we build? The metaverse is the limit. Our community will grow strong. Our franchise will play IRL and in virtual cinemas in the metaverse. Our IP will be exploited by the community for the community.`}
           />
         </div>
       </Wrapper>
