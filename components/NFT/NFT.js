@@ -5,10 +5,15 @@ import styled from "styled-components";
 import InfoTwo from "./InfoTwo/InfoTwo";
 import InfoThree from "./InfoThree/InfoThree";
 
+
+
 const NFT = () => {
   return (
     <Wrapper>
+ 
       <InfoTwo />
+
+    
     </Wrapper>
   );
 };

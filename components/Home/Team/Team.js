@@ -11,7 +11,7 @@ const Team = () => {
 
       <div className="team">
         <TeamMember
-          img={"images/doyle.png"}
+          img={"https://ammedodi.sirv.com/Images/Doyle.jpeg"}
           header={"Writer & Director"}
           info={"Cameron Van Hoy"}
           instagram={"https://www.instagram.com/cameronvanhoy/"}
@@ -19,16 +19,16 @@ const Team = () => {
           twitter={"https://twitter.com/CameronVanHoy"}
         />
         <TeamMember
-          img={"images/mia.png"}
+          img={"https://ammedodi.sirv.com/Images/Mia.jpeg"}
           header={"Characters by"}
           info={"@sveta_has"}
           instagram={"https://www.instagram.com/sveta_has/"}
           facebook={""}
           twitter={""}
           tiktok={"https://www.tiktok.com/@sveta_has?lang=en"}
-        />     
+        />
         <TeamMember
-          img={"images/james.png"}
+          img={"https://ammedodi.sirv.com/Images/James.jpeg"}
           header={"Developer"}
           info={"Iceyy"}
         />
@@ -43,9 +43,9 @@ const Wrapper = styled.div`
   width: 100%;
   height: max-content;
   background-color: #191919;
-
   padding: 20px;
 
+  border-top: 2px solid #eaa721;
   border-bottom: 2px solid #eaa721;
 
   display: flex;
@@ -62,7 +62,6 @@ const Wrapper = styled.div`
     font-size: 2rem;
     color: #eaa721;
   }
-
   .team {
     display: flex;
     justify-content: center;
@@ -73,7 +72,6 @@ const Wrapper = styled.div`
       gap: 0;
       flex-wrap: nowrap;
       align-items: center;
-
       //   display: block;
       //  width: 100%;
     }

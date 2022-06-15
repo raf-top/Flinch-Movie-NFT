@@ -4,17 +4,19 @@ import styled from "styled-components";
 const InfoTwoItem = (props) => {
   return (
     <Wrapper itemsSpaceEvenly={props.space_evenly}>
-      <p className="header">{props.header1}&nbsp;&nbsp;&nbsp;{props.header2}&nbsp;&nbsp;&nbsp;{props.header3}</p>
+      <p className="header">{props.header}</p>
 
       <div className="content">
         <div className="info">
           <p>{props.info_1}</p>
+
+          <p>{props.info_2}</p>
         </div>
 
         <div className="items">
           {props.item_1_video === true ? (
             <div className="item">
-              <p className="info font-blue">{props.item_1_header}</p>
+              <p className="info">{props.item_1_header}</p>
               <video
                 autoPlay={true}
                 loop={true}
@@ -31,14 +33,14 @@ const InfoTwoItem = (props) => {
             </div>
           ) : (
             <div className="item">
-              <p className="info font-blue">{props.item_1_header}</p>
+              <p className="info">{props.item_1_header}</p>
               <img src={props.item_1_img} alt="" className="img" />
             </div>
           )}
 
           {props.item_2_video === true ? (
             <div className="item">
-              <p className="info font-blue">{props.item_2_header}</p>
+              <p className="info">{props.item_2_header}</p>
               <video
                 autoPlay={true}
                 loop={true}
@@ -55,14 +57,14 @@ const InfoTwoItem = (props) => {
             </div>
           ) : (
             <div className="item">
-              <p className="info font-blue">{props.item_2_header}</p>
+              <p className="info">{props.item_2_header}</p>
               <img src={props.item_2_img} alt="" className="img" />
             </div>
           )}
 
           {props.item_3_img.length > 0 && (
             <div className="item">
-              <p className="info font-blue">{props.item_3_header}</p>
+              <p className="info">{props.item_3_header}</p>
               <img src={props.item_3_img} alt="" className="img" />
             </div>
           )}
@@ -83,7 +85,6 @@ const Wrapper = styled.div`
     font-style: normal;
     font-size: 1.5rem;
     color: #eaa721;
-    text-align: center;
   }
 
   .content {
@@ -104,14 +105,11 @@ const Wrapper = styled.div`
       line-height: 31px;
       font-family: acumin-pro-wide, sans-serif;
     }
-    .font-blue {
-      color: #5ec2a3 !important;
-    }
   }
 
   .items {
     width: 100%;
-    padding-bottom: 60px;
+
     //
     display: flex;
     justify-content: ${(props) =>
@@ -144,7 +142,7 @@ const Wrapper = styled.div`
         border: solid 0px transparent;
 
         &:hover {
-          transform: scale(1.05);
+          transform: scale(1.025);
         }
       }
     }

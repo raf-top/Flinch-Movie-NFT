@@ -6,15 +6,13 @@ import styled from "styled-components";
 
 // Components
 import RoadmapItem from "./RoadmapItem/RoadmapItem";
-import Background from "../../Global/Background/Background";
 
 const Roadmap = () => {
   return (
     <Fragment>
-  
-      <Wrapper id="strategy">       
+      <Wrapper id="strategy">
         <p className="header">The Strategy</p>
-        <Background variant={"InfoFour"} />
+
         <div className="line-wrapper">
           <div className="roadmap-line"></div>
         </div>
@@ -22,62 +20,55 @@ const Roadmap = () => {
         <div className="items">
           <RoadmapItem
             align={"left"}
-            img={"images/church.png"}
-            title={"10"}
-            pros="%"
-            info={`First 10% of minters receive free signed Flinch Poster.`}
+            img={"https://ammedodi.sirv.com/Images/church.png"}
+            title={"10%"}
+            info={`Pay back the loan shark before we get our legs broken.`}
           />
 
           <RoadmapItem
             align={"right"}
-            img={"images/doyle_glass.jpg"}
-            title={"20"}
-            pros="%"
-            info={`Airdrop 10 NFTs to random holders.`}
+            img={"https://ammedodi.sirv.com/Images/doyle.png"}
+            title={"20%"}
+            info={`Drop the Character NFTs. Airdrop 10 to random Poster holders.`}
           />
 
           <RoadmapItem
             align={"left"}
-            img={"images/ED.png"}
-            title={"40"}
-            pros="%"
+            img={"https://ammedodi.sirv.com/Images/ED.png"}
+            title={"40%"}
             info={`2 billboards in major cities will be rented to promote Flinch. Holders vote on where.`}
           />
 
           <RoadmapItem
             align={"right"}
-            img={"images/fire.png"}
-            title={"60"}
-            pros="%"
-            info={`Host IRL Premieres and afterparties of Flinch in NYC and LA for NFT holders. Exclusive virtual stream for any holders who can't attend.`}
-          />
-
-          <RoadmapItem
-            align={"left"}
-            img={"images/fish.png"}
-            title={"80"}
-            pros="%"
-            info={`
-            Establish three funds. One for marketing, one for development, one for buying back the least expensive Flinch  NFTs. Each fund will be allocated 5% from profits.
+            img={"https://ammedodi.sirv.com/Images/fire.png"}
+            title={"60%"}
+            info={`Distribute $20k worth of ETH via airdrop to 10 random Flinch holders.
             `}
           />
 
           <RoadmapItem
-            align={"right"}
-            img={"images/gloria.png"}
-            title={"100"}
-            pros="%"
+            align={"left"}
+            img={"https://ammedodi.sirv.com/Images/fish.png"}
+            title={"80%"}
             info={`
-            Begin making the second film in the franchise. We will establish the governance work flow and hire community members for specific roles in the production.`}
+            Establish three funds. One for marketing, one for development, one for buying back the least expensive Flinch  NFTs. Each fund will be allocated 10% from profits.`}
+          />
+
+          <RoadmapItem
+            align={"right"}
+            img={"https://ammedodi.sirv.com/Images/gloria.png"}
+            title={"100%"}
+            info={`
+            Begin making the second film. Once that film is released, new Poster and Cinematics will drop along with the film. All current holders will be airdropped companion NFTs for part two.`}
           />
 
           <RoadmapItem
             align={"left"}
-            img={"images/neonjesus.png"}
+            img={"https://ammedodi.sirv.com/Images/neonjesus.png"}
             title={"Post Launch"}
-            pros=""
             info={`
-            How epic a crime franchise can we build? The metaverse is the limit. Our community will grow strong. Our franchise will play IRL and in virtual cinemas in the metaverse. Our IP will be exploited by the community for the community.`}
+            How epic a crime franchise can we build? The Metaverse is the limit. Cinema income will be paid out to members monthly from the top of launch. Airdrops might be paid via layer 2 or via NFT re-purchase until layer 2 workflow is established. Virtual cinemas will be built in the Metaverse that you and your friends can attend together.`}
           />
         </div>
       </Wrapper>
@@ -89,6 +80,8 @@ export default Roadmap;
 
 const Wrapper = styled.div`
   width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
   color: #fff;
   position: relative;
 
@@ -96,12 +89,12 @@ const Wrapper = styled.div`
 
   overflow: hidden;
 
+  border-top: 2px solid #eaa721;
   border-bottom: 2px solid #eaa721;
 
   padding: 20px;
 
   .header {
-    position: relative;
     text-align: center;
     font-family: interstate, sans-serif;
     font-weight: 900;
@@ -109,7 +102,6 @@ const Wrapper = styled.div`
     font-size: 2rem;
     color: #eaa721;
     padding-bottom: 30px;
-    z-index: 1;
   }
   .line-wrapper {
     position: absolute;

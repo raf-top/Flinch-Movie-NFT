@@ -35,18 +35,6 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
-.team img {
-  border-radius: 50% !important;
-}
-
-.connect-button {
-  border-radius: 35px !important;
-}
-
-.text-center {
-  text-align: center !important;
-}
-
 /* Font sizes */
 @media only screen and (min-width: 768px) {
   html {
@@ -70,8 +58,9 @@ body::-webkit-scrollbar-thumb {
   max-height: 100vh; */
 }
 
+/* Web3modal */
 .web3modal-modal-lightbox {
-  z-index: 1000000 !important;
+  z-index: 10000 !important;
 }
 
 /* Global animations */

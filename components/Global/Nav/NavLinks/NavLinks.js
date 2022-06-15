@@ -86,9 +86,15 @@ const NavLinks = () => {
         setConnected(false);
       });
 
-      const addy = await signer.getAddress();
-
-      dispatch(userAcitons.setUserAddress(addy));
+      if (signer.provider.provider.selectedAddress) {
+        dispatch(
+          userAcitons.setUserAddress(signer.provider.provider.selectedAddress)
+        );
+      } else {
+        dispatch(
+          userAcitons.setUserAddress(signer.provider.provider.accounts[0])
+        );
+      }
 
       dispatch(userAcitons.setWeb3modal(web3Modal));
       dispatch(userAcitons.setProvider(provider));
@@ -108,19 +114,15 @@ const NavLinks = () => {
       </Button>
 
       <Button className="link-button">
+        <Link href="/faq">Faq</Link>
+      </Button>
+
+      <Button className="link-button">
         <Link href="/#strategy">Strategy</Link>
       </Button>
 
       <Button className="link-button">
         <Link href="/#story">Story</Link>
-      </Button>
-
-      <Button className="link-button">
-        <Link href="https://www.ardorpictures.com/collections/all">Shop</Link>
-      </Button>
-
-      <Button className="link-button">
-        <Link href="/faq">Faq</Link>
       </Button>
 
       <Button className="connect-button" onClick={handleConnection}>
@@ -136,41 +138,54 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 20px;
+
   a {
     color: #eaa721;
     text-decoration: none;
     font-size: 1.25rem;
+
     text-transform: uppercase;
+
     cursor: pointer;
+
     &:hover {
       color: rgba(234, 167, 33, 0.9);
     }
   }
+
   .link-button {
     //  width: 150px;
     color: #eaa721;
     text-decoration: none;
     font-size: 1.25rem;
+
     text-transform: uppercase;
+
     cursor: pointer;
+
     height: 75px;
+
     &::placeholder {
       /* Chrome, Firefox, Opera, Safari 10.1+ */
       color: rgb(94, 194, 163);
       opacity: 1; /* Firefox */
     }
+
     &:-ms-input-placeholder {
       /* Internet Explorer 10-11 */
       color: rgb(94, 194, 163);
     }
+
     &::-ms-input-placeholder {
       /* Microsoft Edge */
       color: rgb(94, 194, 163);
     }
   }
+
   @media only screen and (max-width: 1275px) {
     display: none;
   }
+
   .connect-button {
     border: 2px solid rgb(94, 194, 163);
     width: 200px;
@@ -178,7 +193,9 @@ const Wrapper = styled.div`
     font-size: 1.25rem;
     border-radius: 0px;
     text-transform: uppercase;
+
     margin-left: 20px;
+
     &:hover {
       color: rgba(234, 167, 33, 0.9);
     }

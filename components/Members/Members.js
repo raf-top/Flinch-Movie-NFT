@@ -7,9 +7,7 @@ import MembersInfo from "./MembersInfo/MembersInfo";
 const Members = () => {
   return (
     <Wrapper>
-
       <MembersInfo />
-
     </Wrapper>
   );
 };

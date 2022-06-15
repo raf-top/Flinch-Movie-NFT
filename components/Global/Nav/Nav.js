@@ -6,7 +6,7 @@ import styled from "styled-components";
 
 // Next
 import Link from "next/link";
-import Image from 'next/image'
+
 // Material UI
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -23,7 +23,7 @@ const Nav = () => {
 
   const mobileMenuHandler = () => {
     setMobileLinks((prev) => !prev);
-    console.log('-------')
+
     // document.body.classList.toggle("disable-scrolling");
   };
 
@@ -31,8 +31,8 @@ const Nav = () => {
     <Wrapper>
       <Link href="/">
         <img
-          src="images/flinch_logo.png"
-          alt="logo"
+          src="https://ammedodi.sirv.com/Images/flinch-movie-logo-300x107.png"
+          alt=""
           className="logo"
         />
       </Link>

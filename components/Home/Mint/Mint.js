@@ -58,14 +58,14 @@ const Mint = () => {
 
       <div className="background">
         <img
-          src="images/background.png"
+          src="https://ammedodi.sirv.com/Images/flinch-background.jpg"
           alt=""
         />
       </div>
 
       <img
         className="poster"
-        src="images/illustrated.jpeg"
+        src="https://ammedodi.sirv.com/Images/Revised%20Poster_RemovedText.png"
         alt=""
       />
 
@@ -106,7 +106,7 @@ const Mint = () => {
         </a>
         <a href="https://discord.gg/wKWpHDZM" target="_blank" rel="noreferrer">
           <img
-            src="images/discord-icon.svg"
+            src="https://ammedodi.sirv.com/Images/discord-icon.svg"
             alt=""
             className="icon"
           />
@@ -149,7 +149,10 @@ const Wrapper = styled.div`
     left: 0;
 
     width: 100vw;
-    z-index: 1000;
+
+    max-height: calc(100vh - 80px);
+
+    z-index: 9;
   }
 
   .background {
@@ -161,7 +164,7 @@ const Wrapper = styled.div`
       //   top: -90%;
 
       left: 0;
-      width: 100vw;
+
       height: calc(100vh - 80px);
       min-height: calc(100vh - 80px);
 
@@ -175,11 +178,13 @@ const Wrapper = styled.div`
 
       z-index: -1;
 
+     // width: 100%;
+
       //  margin-top: 80px;
       //
       //  width: 100vw;
       @media only screen and (max-width: 1000px) {
-        //     width: 100vw;
+        //   width: 100vw;
 
         //     height: 100%;
         //     min-height: 100%;

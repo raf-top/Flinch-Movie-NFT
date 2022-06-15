@@ -18,19 +18,19 @@ const Wrapper = styled.div`
   top: 0;
   left: 0;
 
-  z-index: 0;
+  z-index: -1;
 
   ${(props) =>
     props.variant === "mint"
       ? `
-    background: black
+    background: #ffffff
     url("https://cdn.discordapp.com/attachments/771433993744678972/914135500678393856/unknown.png")
     top left fixed;
 
     `
       : `
-    background: black
-    url("images/background.png")
+    background: #ffffff
+    url("https://www.flinchthemovie.com/wp-content/uploads/2020/12/flinch-background.jpg")
     top left fixed;
 
 

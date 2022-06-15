@@ -16,37 +16,33 @@ const Footer = () => {
       </div> */}
 
       <div className="copyright">
-        {/* <img
+        <img
           src="https://media.discordapp.net/attachments/903747551688294461/913107897095958619/Ardor_Logo_White.png?width=600&height=600"
           alt=""
           className="logo"
-        /> */}
+        />
 
-        <p>Copyright © Ardor Pictures 2022</p>
+        <p>Copyright © Ardor Pictures 2021</p>
       </div>
 
       <div className="socials">
         <a
-          href=" https://www.instagram.com/flinchmovie/"
+          href="https://www.instagram.com/ardorpictures/"
           target="_blank"
           rel="noreferrer"
         >
           <InstagramIcon className="icon" />
         </a>
         <a
-          href=" https://www.facebook.com/flinchmovie"
+          href="https://www.facebook.com/ardorpictures"
           target="_blank"
           rel="noreferrer"
         >
           <FacebookIcon className="icon" />
         </a>
-        <a
-          href="https://discord.gg/VKB4xMQdG8"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://discord.gg/wKWpHDZM" target="_blank" rel="noreferrer">
           <img
-            src="images/discord-icon.svg"
+            src="https://ammedodi.sirv.com/Images/discord-icon.svg"
             alt=""
             className="icon"
           />
@@ -66,13 +62,13 @@ const Footer = () => {
 export default Footer;
 
 const Wrapper = styled.footer`
+  margin-top: 100px;
   padding: 20px;
 
   background-color: #191919;
+  border-top: 2px solid #eaa721;
 
   // height: 75px;
-
-  border-top: 2px solid #eaa721;
 
   position: relative;
 
@@ -162,7 +158,7 @@ const Wrapper = styled.footer`
 
     a {
       .icon {
-        fill: #e02d41;
+        fill: #eaa721;
         width: 50px;
         font-size: 50px;
       }

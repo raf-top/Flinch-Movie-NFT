@@ -1,9 +1,15 @@
 // Styled Components
 import styled from "styled-components";
 
+// Components
+
+
 const Cinema = () => {
   return (
     <Wrapper>
+      {/* <Background /> */}
+   
+
       <div className="content">
         <h1>Welcome to the Cinema</h1>
 
@@ -19,6 +25,8 @@ const Cinema = () => {
           mozallowfullscreen="true"
         ></iframe>
       </div>
+
+    
     </Wrapper>
   );
 };

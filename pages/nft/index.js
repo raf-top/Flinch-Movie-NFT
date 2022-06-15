@@ -14,7 +14,7 @@ const Index = () => {
         <title>Flinch | NFT</title>
         <link
           rel="icon"
-          href="images/neonjesus.png"
+          href="https://ammedodi.sirv.com/Images/neonjesus.png"
         />
       </Head>
       <NFT />

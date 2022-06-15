@@ -15,7 +15,7 @@ import Button from "@mui/material/Button";
 // Contract
 import SmartContract from "../../../ABI/CVHWhitelist.json";
 
-const SmartContractAddress = "0xD4228d3E0219142275866b0Ea434a3E1638889E1";
+const SmartContractAddress = "0x8344953a79EBea8828D44501Ccd2328ce8041A31";
 
 const PleaseSignInPay = () => {
   const userAddress = useSelector((state) => state.user.userAddress);
@@ -63,9 +63,7 @@ const PleaseSignInPay = () => {
       });
 
       dispatch(userAcitons.setIsCustomer(true));
-    } catch (err) {
-      alert(err);
-    }
+    } catch (error) {}
   };
 
   return (
@@ -93,30 +91,39 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
   padding: 0 20px;
-  margin-bottom: 50px;
+
   p {
     color: #fff;
     font-size: 20px;
   }
+
   .pay {
     background-color: #191919;
+
     //
     width: 600px;
     @media only screen and (max-width: 650px) {
       width: 100%;
     }
+
     //
+
     border: 2px solid #eaa721;
+
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
     gap: 20px;
+
     padding: 20px;
+
     .header {
       text-align: left;
     }
+
     .button {
       border: 2px solid rgb(94, 194, 163);
       width: 200px;
@@ -124,6 +131,7 @@ const Wrapper = styled.div`
       font-size: 1.25rem;
       border-radius: 0px;
       text-transform: uppercase;
+
       &:hover {
         color: rgba(234, 167, 33, 0.9);
       }

@@ -5,8 +5,8 @@ const initialState = {
   userAddress: "",
   isWhitelisted: false,
   isCustomer: false,
-  web3modal: null,
-  provider: null,
+  web3modal: undefined,
+  provider: undefined,
 };
 
 const userSlice = createSlice({

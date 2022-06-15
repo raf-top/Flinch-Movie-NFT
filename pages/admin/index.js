@@ -32,12 +32,10 @@ const Index = () => {
   }, [userAddress]);
 
   if (
-    (loaded &&
-      userAddress.toLowerCase() ===
-        "0x3C97b95FB4f8E405224c5DF44789c2af1228d1A9".toLowerCase()) ||
-    (userAddress.toLowerCase() ===
+    loaded &&
+    userAddress.toLowerCase() ===
       "0x3C97b95FB4f8E405224c5DF44789c2af1228d1A9".toLowerCase() &&
-      userAddress.length > 0)
+    userAddress.length > 0
   ) {
     return (
       <Fragment>

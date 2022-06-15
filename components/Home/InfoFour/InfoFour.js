@@ -21,16 +21,19 @@ const InfoFour = () => {
 
   return (
     <Wrapper>
+      {/* <Background variant={"InfoFour"} /> */}
 
       <div className="content">
         <p className="header">The Cinema</p>
 
         <p className="info">
           Unlike other NFT projects, making the films is not a future goal, part
-          one is complete. What happens next is up to you.
-          To access the cinema for free and watch the film, Flinch NFT holders will need to be signed in to their Metamask wallet.
-          Non Flinch holders can watch Flinch in our cinema for 2 Matic tokens. Flinch holders will be rewarded value from the
-          cinema via monthly airdrops, in our token of choice.
+          one is complete. What happens next is up to you. To access the cinema
+          for free and watch the film, Flinch NFT holders will need to be signed
+          in to their Metamask wallet. Non Flinch holders can watch Flinch in
+          our cinema for $1 USD worth of various coins. Flinch holders will be
+          paid out 20% of all cinema income via monthly airdrops, pari passu, in
+          our token of choice.
         </p>
 
         <div className="cinema">
@@ -46,7 +49,7 @@ const InfoFour = () => {
           ></iframe>
 
           <Link href="/cinema">
-            <Button className="copy-button">Watch Now</Button>
+            <Button className="copy-button">Visit the Cinema</Button>
           </Link>
         </div>
       </div>
@@ -62,13 +65,16 @@ const Wrapper = styled.div`
 
   position: relative;
   overflow: hidden;
-  background: #191919;
+
   border-top: 2px solid #eaa721;
   border-bottom: 2px solid #eaa721;
+
+  background-color: #191919;
 
   .content {
     width: 100%;
     padding: 50px 20px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,19 +100,14 @@ const Wrapper = styled.div`
       font-family: interstate, sans-serif;
       font-weight: 900;
       font-style: normal;
-      font-size: 1.8rem;
+      font-size: 2rem;
       color: #eaa721;
     }
 
     .info {
       color: #fff;
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       line-height: 31px;
-      text-align: center;
-      max-width: 800px;
-      @media only screen and (max-width: 750px) {
-        text-align: left;
-      }
     }
 
     .cinema {
@@ -150,13 +151,13 @@ const Wrapper = styled.div`
     }
 
     .copy-button {
-      border: 2px solid #5ec2a3;
+      border: 2px solid rgb(94, 194, 163);
       width: 275px;
       color: #eaa721;
       font-size: 1.35rem;
       border-radius: 0px;
       text-transform: uppercase;
-      border-radius: 35px !important;
+
       &:hover {
         color: rgba(234, 167, 33, 0.9);
       }

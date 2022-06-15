@@ -15,7 +15,6 @@ import styled from "styled-components";
 
 // Web3Modal
 import Web3Modal from "web3modal";
-import WalletConnectProvider from "@walletconnect/web3-provider";
 
 // Ethers
 import { ethers } from "ethers";
@@ -38,68 +37,36 @@ const NavLinksMobile = (props) => {
 
   const userAddress = useSelector((state) => state.user.userAddress);
 
+  useEffect(() => {
+    if (userAddress.length > 0) {
+      setConnected(true);
+    }
+  }, []);
+
   const mobileMenuHandler = () => {
+    console.log("hi");
     props.mobileMenuHandler();
-    console.log('here')
   };
 
   const handleConnection = async () => {
-    const providerOptions = {
-      walletconnect: {
-        package: WalletConnectProvider, // required
-        options: {
-          chainId: 137,
-          rpc: {
-            137: "https://rpc-mainnet.matic.quiknode.pro/",
-          },
-          network: "matic",
-        },
-      },
-
-      injected: {
-        display: {
-          logo: "https://github.com/MetaMask/brand-resources/raw/master/SVG/metamask-fox.svg",
-          name: "MetaMask",
-          description: "Connect with MetaMask in your browser",
-        },
-        package: null,
-      },
-    };
-
-    const web3Modal = new Web3Modal({
-      cacheProvider: false, // optional
-      providerOptions, // required
-    });
+    const web3Modal = new Web3Modal();
 
     if (connected) {
       web3Modal.clearCachedProvider();
-      window.location.reload();
 
       dispatch(userAcitons.setUserAddress(""));
-      dispatch(userAcitons.setWeb3modal(""));
-      dispatch(userAcitons.setProvider(""));
+
       setConnected(false);
     } else {
       const connection = await web3Modal.connect();
       const provider = new ethers.providers.Web3Provider(connection);
       const signer = provider.getSigner();
 
-      provider.on("disconnect", (error) => {
-        web3Modal.clearCachedProvider();
-        window.location.reload();
+      // signer.provider.provider.selectedAddress
 
-        dispatch(userAcitons.setUserAddress(""));
-        dispatch(userAcitons.setWeb3modal(""));
-        dispatch(userAcitons.setProvider(""));
-        setConnected(false);
-      });
-
-      const addy = await signer.getAddress();
-
-      dispatch(userAcitons.setUserAddress(addy));
-
-      dispatch(userAcitons.setWeb3modal(web3Modal));
-      dispatch(userAcitons.setProvider(provider));
+      dispatch(
+        userAcitons.setUserAddress(signer.provider.provider.selectedAddress)
+      );
 
       setConnected(true);
     }
@@ -116,24 +83,26 @@ const NavLinksMobile = (props) => {
             exit="hidden"
             transition={{ duration: 0.1 }}
           >
-            <Link href="/cinema" >
-              <Button className="link-button" onClick={mobileMenuHandler}>Cinema</Button>
+            <Link href="/cinema">
+              <p onClick={mobileMenuHandler}>Cinema</p>
             </Link>
-            <Link href="/nft">
-             <Button className="link-button" onClick={mobileMenuHandler}>NFT</Button>
-            </Link>
-            <Link href="/#strategy">
-              <Button className="link-button" onClick={mobileMenuHandler}>Strategy</Button>      
-            </Link>
-            <Link href="/#story">
-              <Button className="link-button" onClick={mobileMenuHandler}>Story</Button>   
-            </Link>
-            <Link href="https://www.ardorpictures.com/collections/all">
-              <Button className="link-button">Shop</Button>   
-            </Link>
+
             <Link href="/faq">
-              <Button className="link-button" onClick={mobileMenuHandler}>FAQ</Button> 
+              <p onClick={mobileMenuHandler}>Faq</p>
             </Link>
+
+            <Link href="/#strategy">
+              <p onClick={mobileMenuHandler}>Strategy</p>
+            </Link>
+
+            <Link href="/#story">
+              <p onClick={mobileMenuHandler}>Story</p>
+            </Link>
+
+            <Link href="/nft">
+              <p onClick={mobileMenuHandler}>NFT</p>
+            </Link>
+
             <Button className="connect-button" onClick={handleConnection}>
               {connected ? <p>Disconnect</p> : <p>Connect</p>}
             </Button>
@@ -169,24 +138,16 @@ const Wrapper = styled(motion.div)`
   min-height: 400px;
   overflow: scroll;
 
-  a, button {
+  p {
     color: #eaa721;
     text-decoration: none;
     font-size: 1.35rem;
 
+    text-transform: uppercase;
+
     &:hover {
       color: rgba(234, 167, 33, 0.9);
     }
-  }
-
-  .link-button {
-    //  width: 150px;
-    color: #eaa721;
-    text-decoration: none;
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    cursor: pointer;
-    height: 14px;
   }
 
   .connect-button {

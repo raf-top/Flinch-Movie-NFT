@@ -54,64 +54,22 @@ const Carousel = () => {
   return (
     <Wrapper {...settings}>
       <div className="slide-1">
-        <img
-          src="images/doyle.png"
-          alt=""
-        />
+        <img src="https://ammedodi.sirv.com/Images/James.jpeg" alt="" />
       </div>
       <div className="slide-2">
-        <img
-          src="images/mia.png"
-          alt=""
-        />
+        <img src="https://ammedodi.sirv.com/Images/Doyle.jpeg" alt="" />
       </div>
       <div className="slide-3">
-        <img
-          src="images/james.png"
-          alt=""
-        />
+        <img src="https://ammedodi.sirv.com/Images/Lee.jpeg" alt="" />
       </div>
       <div className="slide-4">
-        <img
-          src="images/lee.png"
-          alt=""
-        />
+        <img src="https://ammedodi.sirv.com/Images/Gloria.jpeg" alt="" />
       </div>
       <div className="slide-5">
-        <img
-          src="images/Gloria.jpeg"
-          alt=""
-        />
-      </div>
+        <img src="https://ammedodi.sirv.com/Images/Mia.jpeg" alt="" />
+      </div>{" "}
       <div className="slide-6">
-        <img
-          src="images/doyle.png"
-          alt=""
-        />
-      </div>
-      <div className="slide-7">
-        <img
-          src="images/mia.png"
-          alt=""
-        />
-      </div>
-      <div className="slide-8">
-        <img
-          src="images/james.png"
-          alt=""
-        />
-      </div>
-      <div className="slide-9">
-        <img
-          src="images/lee.png"
-          alt=""
-        />
-      </div>
-      <div className="slide-10">
-        <img
-          src="images/Gloria.jpeg"
-          alt=""
-        />
+        <img src="https://ammedodi.sirv.com/Images/Lee.jpeg" alt="" />
       </div>
     </Wrapper>
   );

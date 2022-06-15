@@ -24,7 +24,7 @@ const RoadmapItem = (props) => {
           </div>
 
           <div className="content">
-            <p className="title">{props.title}<span className="pros">{props.pros}</span></p>
+            <p className="title">{props.title}</p>
             <p className="info">{props.info}</p>
           </div>
         </Wrapper>
@@ -39,7 +39,7 @@ const RoadmapItem = (props) => {
             </div>
 
             <div className="content">
-              <p className="title">{props.title}<span className="pros">{props.pros}</span></p>
+              <p className="title">{props.title}</p>
               <p className="info">{props.info}</p>
             </div>
           </Wrapper>
@@ -95,6 +95,10 @@ const Wrapper = styled.div`
       width: 100%;
     }
     //
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     position: relative;
     //
@@ -108,10 +112,7 @@ const Wrapper = styled.div`
       text-align: left;
       width: 100%;
       font-weight: 800;
-      color: #5ec2a3;
-    }
-    .pros {
-      color: #5ec2a3;
+      color: rgb(94, 194, 163);
     }
     .info {
       font-size: 1.1rem;
@@ -158,7 +159,7 @@ const Wrapper = styled.div`
         height: 20px;
         border-radius: 50%;
         border: 4px solid #eaa721;
-        background-color: #191919;
+        background-color: rgb(94, 194, 163);
         position: absolute;
         right: 0;
         transform: translateX(50%) translateY(-40%);
